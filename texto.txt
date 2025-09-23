@@ -1,0 +1,8 @@
+A segurança da informação é fundamental para empresas modernas.
+O modelo OSI possui sete camadas.
+O protocolo TCP/IP é a base da comunicação na internet.
+Um endereço IP identifica um dispositivo em uma rede.
+As portas de rede permitem que serviços diferentes funcionem no mesmo servidor.
+O Python é uma ótima linguagem para automação em SOC.
+Regex é útil para extrair informações de logs.
+No SOC, monitoramos eventos de rede e sistemas continuamente.
