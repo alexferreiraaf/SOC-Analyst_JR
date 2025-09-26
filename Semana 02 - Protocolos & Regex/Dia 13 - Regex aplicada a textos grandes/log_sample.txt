@@ -1,0 +1,20 @@
+2025-09-11 10:23:01 SRC=192.168.0.10 user=alice@lab.com ACTION=Login Success
+2025-09-11 10:24:15 SRC=185.222.123.45 user=bob@teste.org ACTION=Login Failed
+2025-09-11 10:25:43 SRC=10.0.0.5 user=admin@corp.net ACTION=Password Change
+2025-09-11 10:26:12 SRC=172.16.0.8 user=frank@domain.com ACTION=File Upload
+2025-09-11 10:27:32 SRC=200.200.200.200 user=guest@fake.com ACTION=Login Failed
+2025-09-11 10:28:07 SRC=192.168.1.25 user=julia@company.com ACTION=SSH Attempt
+2025-09-11 10:29:18 SRC=203.0.113.99 user=none@nowhere.com ACTION=Timeout
+2025-09-11 10:30:51 SRC=8.8.8.8 user=sys@support.net ACTION=DNS Query
+2025-09-11 10:31:40 SRC=192.168.0.11 user=maria@lab.com ACTION=Email Sent
+2025-09-11 10:32:22 SRC=185.222.123.45 user=bob@teste.org ACTION=Brute Force Attempt
+2025-09-11 10:33:07 SRC=10.0.0.6 user=daniel@corp.net ACTION=Login Failed
+2025-09-11 10:34:33 SRC=192.168.1.30 user=ana@school.edu ACTION=Password Reset
+2025-09-11 10:35:44 SRC=172.16.0.20 user=marcos@domain.com ACTION=SSH Attempt
+2025-09-11 10:36:55 SRC=192.168.2.40 user=joao@company.com ACTION=HTTP Request
+2025-09-11 10:37:21 SRC=200.100.50.25 user=lisa@provider.net ACTION=Login Success
+2025-09-11 10:38:49 SRC=198.51.100.10 user=kevin@lab.com ACTION=Login Failed
+2025-09-11 10:39:55 SRC=203.0.113.77 user=carlos@domain.com ACTION=File Download
+2025-09-11 10:40:12 SRC=192.168.3.33 user=flavia@corp.net ACTION=SMTP Send
+2025-09-11 10:41:23 SRC=185.222.123.45 user=bob@teste.org ACTION=Brute Force Detected
+2025-09-11 10:42:30 SRC=10.10.10.10 user=sofia@personal.com ACTION=Login Failed
