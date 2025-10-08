@@ -1,0 +1,50 @@
+10.0.0.5 - acesso bloqueado
+8.8.8.8 - transferência iniciada
+10.0.0.5 - consulta DNS
+192.168.0.1 - transferência iniciada
+192.168.1.10 - acesso negado
+192.168.1.10 - tentativa de login
+10.0.0.5 - transferência iniciada
+192.168.0.2 - transferência iniciada
+192.168.0.1 - acesso bloqueado
+10.0.0.5 - consulta DNS
+192.168.1.10 - acesso bloqueado
+203.0.113.5 - acesso permitido
+8.8.8.8 - transferência iniciada
+203.0.113.5 - transferência iniciada
+192.168.1.10 - acesso permitido
+10.0.0.5 - transferência iniciada
+8.8.8.8 - transferência iniciada
+192.168.0.1 - tentativa de login
+192.168.0.1 - acesso bloqueado
+203.0.113.5 - transferência iniciada
+10.0.0.5 - acesso negado
+192.168.1.10 - transferência iniciada
+203.0.113.5 - tentativa de login
+10.0.0.5 - acesso permitido
+203.0.113.5 - tentativa de login
+192.168.0.2 - acesso permitido
+192.168.0.1 - acesso permitido
+10.0.0.5 - acesso bloqueado
+192.168.0.2 - tentativa de login
+203.0.113.5 - tentativa de login
+10.0.0.5 - acesso permitido
+192.168.0.2 - acesso negado
+192.168.0.1 - tentativa de login
+203.0.113.5 - acesso negado
+8.8.8.8 - acesso negado
+192.168.0.2 - transferência iniciada
+8.8.8.8 - acesso negado
+192.168.0.1 - acesso negado
+192.168.1.10 - acesso negado
+192.168.0.2 - tentativa de login
+203.0.113.5 - acesso permitido
+203.0.113.5 - consulta DNS
+192.168.0.2 - acesso permitido
+10.0.0.5 - acesso negado
+203.0.113.5 - consulta DNS
+192.168.0.1 - tentativa de login
+203.0.113.5 - acesso permitido
+192.168.0.1 - acesso negado
+8.8.8.8 - tentativa de login
+192.168.0.2 - acesso negado
