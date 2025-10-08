@@ -1,0 +1,15 @@
+[OK] Sistema iniciado
+[ALERTA] IP suspeito detectado
+[ERRO] Falha no login
+[OK] Serviço X iniciado
+[ALERTA] Taxa de erros alta
+[ERRO] Timeout ao conectar
+[OK] Rotina diária executada
+[ALERTA] Varredura de portas detectada
+[ERRO] Falha no backup
+[OK] Processamento concluído
+[ALERTA] Tentativa de brute force detectada
+[ERRO] Permissão negada
+[OK] Checkpoint salvo
+[ALERTA] Uso de CPU elevado
+[ERRO] Disk full warning

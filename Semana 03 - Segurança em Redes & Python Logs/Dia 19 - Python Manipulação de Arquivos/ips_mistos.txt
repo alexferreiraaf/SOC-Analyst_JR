@@ -1,0 +1,10 @@
+User login from 192.168.1.10 at 10:00
+Random text without ip
+Connection from 10.0.0.5 failed
+Alert: 203.0.113.5 accessed /admin
+Malformed 999.999.999.999 should be ignored by validity, but regex picks it
+Edge case: 192.168.100.200 extra
+No IP here
+Another IP 8.8.8.8 in text
+Localhost: 127.0.0.1 present
+Final line with 192.168.1.200
