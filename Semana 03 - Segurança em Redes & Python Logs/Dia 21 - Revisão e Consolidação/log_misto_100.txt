@@ -1,0 +1,100 @@
+Nenhum evento relevante
+10.0.0.5 - scan detectado
+info@site.net - registro criado
+Alerta de uso de CPU alto
+172.16.0.8 - scan detectado
+Nenhum evento relevante
+maria.silva@mail.com - Connection attempt from 192.168.1.10
+192.168.1.10 - Blocked access from admin@example.com
+info@site.net - Failed login from 203.0.113.5
+192.0.2.1 - Email sent to teste123@gmail.com
+Alerta de uso de CPU alto
+info@site.net - Email sent to 8.8.4.4
+Alerta de uso de CPU alto
+192.168.1.11 - scan detectado
+maria.silva@mail.com - senha alterada
+teste123@gmail.com - Connection attempt from 192.168.1.10
+Nenhum evento relevante
+192.168.1.11 - acesso negado
+user1@lab.com - Failed login from 198.51.100.10
+192.0.2.1 - acesso negado
+maria.silva@mail.com - registro criado
+Teste de sistema concluído
+Backup diário finalizado
+8.8.4.4 - Failed login from user1@lab.com
+172.16.0.8 - tentativa de conexão
+Alerta de uso de CPU alto
+Rotina de manutenção executada
+soc_team@empresa.com - falha de entrega
+192.168.1.10 - Failed login from admin@example.com
+8.8.4.4 - consulta DNS
+Alerta de uso de CPU alto
+suporte@empresa.com.br - Alert sent to 192.0.2.1
+user1@lab.com - mensagem recebida
+192.168.1.11 - scan detectado
+192.168.1.10 - Password change for maria.silva@mail.com
+devops@company.org - notificação enviada
+teste123@gmail.com - notificação enviada
+Teste de sistema concluído
+10.0.0.5 - consulta DNS
+198.51.100.10 - Password change for alerts@monitoring.io
+user1@lab.com - mensagem recebida
+Rotina de manutenção executada
+Nenhum evento relevante
+devops@company.org - senha alterada
+Backup diário finalizado
+203.0.113.5 - tentativa de conexão
+10.0.0.5 - acesso permitido
+alerts@monitoring.io - senha alterada
+devops@company.org - notificação enviada
+teste123@gmail.com - mensagem recebida
+192.168.0.5 - scan detectado
+info@site.net - Failed login from 198.51.100.10
+Alerta de uso de CPU alto
+Backup diário finalizado
+198.51.100.10 - scan detectado
+Teste de sistema concluído
+192.0.2.1 - scan detectado
+suporte@empresa.com.br - falha de entrega
+8.8.4.4 - acesso permitido
+Teste de sistema concluído
+admin@example.com - falha de entrega
+user1@lab.com - notificação enviada
+192.0.2.1 - Query from info@site.net
+maria.silva@mail.com - registro criado
+info@site.net - mensagem recebida
+Alerta de uso de CPU alto
+info@site.net - mensagem recebida
+info@site.net - falha de entrega
+8.8.8.8 - scan detectado
+Alerta de uso de CPU alto
+192.0.2.1 - scan detectado
+192.168.1.10 - consulta DNS
+8.8.8.8 - Notification to admin@example.com
+Alerta de uso de CPU alto
+user1@lab.com - Alert sent to 192.168.1.11
+192.168.1.10 - acesso negado
+Backup diário finalizado
+maria.silva@mail.com - Report to 8.8.8.8
+192.168.0.5 - acesso negado
+Nenhum evento relevante
+Backup diário finalizado
+192.168.1.11 - consulta DNS
+Backup diário finalizado
+security@corp.com - Blocked access from 198.51.100.10
+Alerta de uso de CPU alto
+192.168.0.5 - tentativa de conexão
+192.0.2.1 - tentativa de conexão
+192.0.2.1 - Successful login from admin@example.com
+Alerta de uso de CPU alto
+192.168.0.5 - Query from user1@lab.com
+soc_team@empresa.com - Successful login from 192.168.0.5
+Teste de sistema concluído
+172.16.0.8 - tentativa de conexão
+devops@company.org - Failed login from 192.168.0.5
+Backup diário finalizado
+10.0.0.5 - consulta DNS
+alerts@monitoring.io - Blocked access from 192.168.1.10
+alerts@monitoring.io - Connection attempt from 192.0.2.1
+maria.silva@mail.com - notificação enviada
+security@corp.com - Report to 192.0.2.1
