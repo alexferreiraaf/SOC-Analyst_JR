@@ -1,0 +1,251 @@
+﻿Palavras-chave	Data e Hora	Fonte	Identificação do Evento	Categoria da Tarefa
+Falha de Auditoria	17/10/2025 05:42:17	Microsoft-Windows-Security-Auditing	4625	Logon	"Falha no logon de uma conta.
+
+Requerente:
+	Identificação de segurança:		SISTEMA
+	Nome da conta:		DESKTOP-35U6SFO$
+	Domínio da conta:		WORKGROUP
+	Identificação de logon:		0x3E7
+
+Tipo de logon:			2
+
+Conta cujo logon falhou:
+	Identificação de segurança:		NULL SID
+	Nome da conta:		-
+	Domínio da conta:		-
+
+Informações da falha:
+	Razão da falha:		Erro durante o logon.
+	Status:			0xC000006D
+	Substatus:		0xC0000380
+
+Informações do processo:
+	ID de processo do chamador:	0x74c
+	Nome de processo do chamador:	C:\Windows\System32\svchost.exe
+
+Informações da rede:
+	Nome da estação de trabalho:	-
+	Endereço da rede de origem:	127.0.0.1
+	Porta de origem:		0
+
+Informações detalhadas da autenticação:
+	Processo de logon:		User32 
+	Pacote de autenticação:	Negotiate
+	Serviços transitados:	-
+	Nome do pacote (somente NTLM):	-
+	Comprimento da chave:		0
+
+:Este evento é gerado quando uma solicitação de logon falha. Ele é gerado no computador em houve a tentativa de acesso.
+
+Os campos do assunto indicam a Conta Sistema Local que solicitou o logon. Comumente, isto é um serviço como o de servidor ou um processo local como Winlogon.exe ou Services.exe.
+
+O campo tipo de logon indica o tipo de logon ocorrido. Os tipos mais comuns são 2 (interativo) e 3 (em rede).
+
+Os campos de informações do processo indicam qual conta ou processo do sistema solicitaram o logon.
+
+Os campos informações de rede indicam onde a solicitação de logon remoto se originou. O nome da estação de trabalho nem sempre está disponível e pode ser deixado em branco em alguns casos.
+
+Os campos de informações de autenticação fornecem informações detalhadas sobre esta solicitação específica de logon.
+	- Serviços transitados indicam qual serviço intermediário participou desta solicitação de logon.
+	- Nome de pacote indica qual subprotocolo foi usado, entre os protocolos NTLM.
+	- Comprimento da chave indica o comprimento da chave da sessão gerada. Ele será 0 se nenhuma chave de sessão foi solicitada."
+Falha de Auditoria	17/10/2025 05:42:13	Microsoft-Windows-Security-Auditing	4625	Logon	"Falha no logon de uma conta.
+
+Requerente:
+	Identificação de segurança:		SISTEMA
+	Nome da conta:		DESKTOP-35U6SFO$
+	Domínio da conta:		WORKGROUP
+	Identificação de logon:		0x3E7
+
+Tipo de logon:			2
+
+Conta cujo logon falhou:
+	Identificação de segurança:		NULL SID
+	Nome da conta:		-
+	Domínio da conta:		-
+
+Informações da falha:
+	Razão da falha:		Erro durante o logon.
+	Status:			0xC000006D
+	Substatus:		0xC0000380
+
+Informações do processo:
+	ID de processo do chamador:	0x74c
+	Nome de processo do chamador:	C:\Windows\System32\svchost.exe
+
+Informações da rede:
+	Nome da estação de trabalho:	-
+	Endereço da rede de origem:	127.0.0.1
+	Porta de origem:		0
+
+Informações detalhadas da autenticação:
+	Processo de logon:		User32 
+	Pacote de autenticação:	Negotiate
+	Serviços transitados:	-
+	Nome do pacote (somente NTLM):	-
+	Comprimento da chave:		0
+
+:Este evento é gerado quando uma solicitação de logon falha. Ele é gerado no computador em houve a tentativa de acesso.
+
+Os campos do assunto indicam a Conta Sistema Local que solicitou o logon. Comumente, isto é um serviço como o de servidor ou um processo local como Winlogon.exe ou Services.exe.
+
+O campo tipo de logon indica o tipo de logon ocorrido. Os tipos mais comuns são 2 (interativo) e 3 (em rede).
+
+Os campos de informações do processo indicam qual conta ou processo do sistema solicitaram o logon.
+
+Os campos informações de rede indicam onde a solicitação de logon remoto se originou. O nome da estação de trabalho nem sempre está disponível e pode ser deixado em branco em alguns casos.
+
+Os campos de informações de autenticação fornecem informações detalhadas sobre esta solicitação específica de logon.
+	- Serviços transitados indicam qual serviço intermediário participou desta solicitação de logon.
+	- Nome de pacote indica qual subprotocolo foi usado, entre os protocolos NTLM.
+	- Comprimento da chave indica o comprimento da chave da sessão gerada. Ele será 0 se nenhuma chave de sessão foi solicitada."
+Falha de Auditoria	15/10/2025 23:49:35	Microsoft-Windows-Security-Auditing	4625	Logon	"Falha no logon de uma conta.
+
+Requerente:
+	Identificação de segurança:		SISTEMA
+	Nome da conta:		DESKTOP-35U6SFO$
+	Domínio da conta:		WORKGROUP
+	Identificação de logon:		0x3E7
+
+Tipo de logon:			2
+
+Conta cujo logon falhou:
+	Identificação de segurança:		NULL SID
+	Nome da conta:		-
+	Domínio da conta:		-
+
+Informações da falha:
+	Razão da falha:		Erro durante o logon.
+	Status:			0xC000006D
+	Substatus:		0xC0000380
+
+Informações do processo:
+	ID de processo do chamador:	0x74c
+	Nome de processo do chamador:	C:\Windows\System32\svchost.exe
+
+Informações da rede:
+	Nome da estação de trabalho:	-
+	Endereço da rede de origem:	127.0.0.1
+	Porta de origem:		0
+
+Informações detalhadas da autenticação:
+	Processo de logon:		User32 
+	Pacote de autenticação:	Negotiate
+	Serviços transitados:	-
+	Nome do pacote (somente NTLM):	-
+	Comprimento da chave:		0
+
+:Este evento é gerado quando uma solicitação de logon falha. Ele é gerado no computador em houve a tentativa de acesso.
+
+Os campos do assunto indicam a Conta Sistema Local que solicitou o logon. Comumente, isto é um serviço como o de servidor ou um processo local como Winlogon.exe ou Services.exe.
+
+O campo tipo de logon indica o tipo de logon ocorrido. Os tipos mais comuns são 2 (interativo) e 3 (em rede).
+
+Os campos de informações do processo indicam qual conta ou processo do sistema solicitaram o logon.
+
+Os campos informações de rede indicam onde a solicitação de logon remoto se originou. O nome da estação de trabalho nem sempre está disponível e pode ser deixado em branco em alguns casos.
+
+Os campos de informações de autenticação fornecem informações detalhadas sobre esta solicitação específica de logon.
+	- Serviços transitados indicam qual serviço intermediário participou desta solicitação de logon.
+	- Nome de pacote indica qual subprotocolo foi usado, entre os protocolos NTLM.
+	- Comprimento da chave indica o comprimento da chave da sessão gerada. Ele será 0 se nenhuma chave de sessão foi solicitada."
+Falha de Auditoria	15/10/2025 23:49:17	Microsoft-Windows-Security-Auditing	4625	Logon	"Falha no logon de uma conta.
+
+Requerente:
+	Identificação de segurança:		SISTEMA
+	Nome da conta:		DESKTOP-35U6SFO$
+	Domínio da conta:		WORKGROUP
+	Identificação de logon:		0x3E7
+
+Tipo de logon:			2
+
+Conta cujo logon falhou:
+	Identificação de segurança:		NULL SID
+	Nome da conta:		-
+	Domínio da conta:		-
+
+Informações da falha:
+	Razão da falha:		Erro durante o logon.
+	Status:			0xC000006D
+	Substatus:		0xC0000380
+
+Informações do processo:
+	ID de processo do chamador:	0x74c
+	Nome de processo do chamador:	C:\Windows\System32\svchost.exe
+
+Informações da rede:
+	Nome da estação de trabalho:	-
+	Endereço da rede de origem:	127.0.0.1
+	Porta de origem:		0
+
+Informações detalhadas da autenticação:
+	Processo de logon:		User32 
+	Pacote de autenticação:	Negotiate
+	Serviços transitados:	-
+	Nome do pacote (somente NTLM):	-
+	Comprimento da chave:		0
+
+:Este evento é gerado quando uma solicitação de logon falha. Ele é gerado no computador em houve a tentativa de acesso.
+
+Os campos do assunto indicam a Conta Sistema Local que solicitou o logon. Comumente, isto é um serviço como o de servidor ou um processo local como Winlogon.exe ou Services.exe.
+
+O campo tipo de logon indica o tipo de logon ocorrido. Os tipos mais comuns são 2 (interativo) e 3 (em rede).
+
+Os campos de informações do processo indicam qual conta ou processo do sistema solicitaram o logon.
+
+Os campos informações de rede indicam onde a solicitação de logon remoto se originou. O nome da estação de trabalho nem sempre está disponível e pode ser deixado em branco em alguns casos.
+
+Os campos de informações de autenticação fornecem informações detalhadas sobre esta solicitação específica de logon.
+	- Serviços transitados indicam qual serviço intermediário participou desta solicitação de logon.
+	- Nome de pacote indica qual subprotocolo foi usado, entre os protocolos NTLM.
+	- Comprimento da chave indica o comprimento da chave da sessão gerada. Ele será 0 se nenhuma chave de sessão foi solicitada."
+Falha de Auditoria	15/10/2025 14:04:35	Microsoft-Windows-Security-Auditing	4625	Logon	"Falha no logon de uma conta.
+
+Requerente:
+	Identificação de segurança:		SISTEMA
+	Nome da conta:		DESKTOP-35U6SFO$
+	Domínio da conta:		WORKGROUP
+	Identificação de logon:		0x3E7
+
+Tipo de logon:			2
+
+Conta cujo logon falhou:
+	Identificação de segurança:		NULL SID
+	Nome da conta:		-
+	Domínio da conta:		-
+
+Informações da falha:
+	Razão da falha:		Erro durante o logon.
+	Status:			0xC000006D
+	Substatus:		0xC0000380
+
+Informações do processo:
+	ID de processo do chamador:	0x704
+	Nome de processo do chamador:	C:\Windows\System32\svchost.exe
+
+Informações da rede:
+	Nome da estação de trabalho:	-
+	Endereço da rede de origem:	127.0.0.1
+	Porta de origem:		0
+
+Informações detalhadas da autenticação:
+	Processo de logon:		User32 
+	Pacote de autenticação:	Negotiate
+	Serviços transitados:	-
+	Nome do pacote (somente NTLM):	-
+	Comprimento da chave:		0
+
+:Este evento é gerado quando uma solicitação de logon falha. Ele é gerado no computador em houve a tentativa de acesso.
+
+Os campos do assunto indicam a Conta Sistema Local que solicitou o logon. Comumente, isto é um serviço como o de servidor ou um processo local como Winlogon.exe ou Services.exe.
+
+O campo tipo de logon indica o tipo de logon ocorrido. Os tipos mais comuns são 2 (interativo) e 3 (em rede).
+
+Os campos de informações do processo indicam qual conta ou processo do sistema solicitaram o logon.
+
+Os campos informações de rede indicam onde a solicitação de logon remoto se originou. O nome da estação de trabalho nem sempre está disponível e pode ser deixado em branco em alguns casos.
+
+Os campos de informações de autenticação fornecem informações detalhadas sobre esta solicitação específica de logon.
+	- Serviços transitados indicam qual serviço intermediário participou desta solicitação de logon.
+	- Nome de pacote indica qual subprotocolo foi usado, entre os protocolos NTLM.
+	- Comprimento da chave indica o comprimento da chave da sessão gerada. Ele será 0 se nenhuma chave de sessão foi solicitada."
