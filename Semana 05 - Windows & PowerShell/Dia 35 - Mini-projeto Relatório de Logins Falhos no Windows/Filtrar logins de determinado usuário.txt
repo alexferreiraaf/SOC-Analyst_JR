@@ -1,0 +1,2 @@
+Import-Csv .\logins_falhos.csv | Where-Object {$_.Account -eq "Administrador"}
+

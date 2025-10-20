@@ -1,0 +1,2 @@
+Import-Csv .\logins_falhos.csv | Group-Object IP | Sort-Object Count -Descending | Select-Object Name, Count
+

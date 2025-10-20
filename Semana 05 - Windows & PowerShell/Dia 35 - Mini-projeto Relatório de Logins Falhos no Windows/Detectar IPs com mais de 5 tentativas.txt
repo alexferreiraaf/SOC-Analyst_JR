@@ -1,0 +1,4 @@
+Import-Csv .\logins_falhos.csv |
+Group-Object IP | Where-Object {$_.Count -gt 5} |
+Select-Object Name, Count
+
