@@ -1,0 +1,20 @@
+From: suporte@portal-seguranca.example
+To: maria.oliveira@empresa.lab
+Subject: Ação necessária: redefina sua senha da conta corporativa
+Date: Tue, 14 May 2025 10:22:00 -0300
+Message-ID: <20250514102200.12345@portal-seguranca.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+X-Mailer: LabMailer 1.0
+
+Olá Maria,
+
+Detectamos atividade incomum na sua conta corporativa. Por segurança, solicitamos que você redefina sua senha dentro das próximas 24 horas para evitar bloqueio temporário.
+
+Acesse o link abaixo e siga as instruções:
+https://reset-senha.example.invalid/redefinir?token=ABC123DEF
+
+Se você não solicitou essa ação, ignore esta mensagem ou contate o suporte interno: suporte@portal-seguranca.example
+
+Atenciosamente,
+Equipe de Suporte - Portal Segurança
