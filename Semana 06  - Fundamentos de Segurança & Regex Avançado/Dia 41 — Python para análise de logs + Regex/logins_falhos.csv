@@ -1,0 +1,6 @@
+time,user,ip,raw
+2025-10-20 08:15:23,admin,185.222.123.45,2025-10-20 08:15:23 host1 sshd[1234]: Failed password for invalid user admin from 185.222.123.45 port 514 ssh2
+2025-10-20 08:15:27,admin,185.222.123.45,2025-10-20 08:15:27 host1 sshd[1234]: Failed password for invalid user admin from 185.222.123.45 port 514 ssh2
+2025-10-20 08:15:30,root,203.0.113.55,2025-10-20 08:15:30 host1 sshd[1234]: Failed password for invalid user root from 203.0.113.55 port 3456 ssh2
+2025-10-20 08:23:11,user2,10.0.0.5,2025-10-20 08:23:11 host3 sshd[5678]: Failed password for user2 from 10.0.0.5 port 2222 ssh2
+2025-10-20 08:25:00,admin,185.222.123.45,2025-10-20 08:25:00 host1 sshd[1234]: Failed password for invalid user admin from 185.222.123.45 port 514 ssh2
