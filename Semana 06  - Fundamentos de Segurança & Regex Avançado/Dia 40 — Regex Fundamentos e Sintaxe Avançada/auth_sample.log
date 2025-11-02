@@ -1,0 +1,24 @@
+2025-10-20 08:15:23 host1 sshd[1234]: Failed password for invalid user admin from 185.222.123.45 port 514 ssh2
+2025-10-20 08:15:27 host1 sshd[1234]: Failed password for invalid user admin from 185.222.123.45 port 514 ssh2
+2025-10-20 08:15:30 host1 sshd[1234]: Failed password for invalid user root from 203.0.113.55 port 3456 ssh2
+2025-10-20 08:22:10 host2 sshd[4321]: Accepted password for user1 from 192.0.2.10 port 4321 ssh2
+2025-10-20 08:23:11 host3 sshd[5678]: Failed password for user2 from 10.0.0.5 port 2222 ssh2
+2025-10-20 08:25:00 host1 sshd[1234]: Failed password for invalid user admin from 185.222.123.45 port 514 ssh2
+Oct 29 10:12:45 server sshd[1001]: Failed password for invalid user admin from 192.168.0.10 port 58422 ssh2
+Oct 29 10:13:12 server sshd[1005]: Failed password for root from 10.0.0.1 port 52415 ssh2
+Oct 29 10:15:54 server sshd[1010]: Failed password for user1 from 192.168.0.10 port 52022 ssh2
+Oct 29 10:16:03 server sshd[1015]: Failed password for invalid user guest from 172.16.5.23 port 60111 ssh2
+Oct 29 10:17:11 server sshd[1021]: Failed password for user2 from 192.168.1.50 port 41444 ssh2
+Oct 29 10:17:50 server sshd[1023]: Failed password for root from 10.0.0.1 port 51544 ssh2
+Oct 29 10:18:13 server sshd[1030]: Failed password for user1 from 192.168.0.10 port 52029 ssh2
+Oct 29 10:20:11 server sshd[1042]: Failed password for invalid user test from 172.16.5.23 port 60121 ssh2
+Oct 29 10:21:02 server sshd[1055]: Failed password for root from 203.0.113.45 port 59901 ssh2
+Oct 29 10:21:35 server sshd[1060]: Failed password for invalid user admin from 192.168.1.50 port 41450 ssh2
+Oct 29 10:22:15 server sshd[1072]: Accepted password for user2 from 8.8.8.8 port 40100 ssh2
+Oct 29 10:23:44 server sshd[1084]: Failed password for user3 from 203.0.113.45 port 59915 ssh2
+Oct 29 10:24:31 server sshd[1090]: Failed password for invalid user ftp from 10.0.0.1 port 51599 ssh2
+Oct 8 12:10:12 sshd[1001]: Failed login for admin from Source Network Address: -
+Oct 8 12:11:22 sshd[1002]: Failed login for root from Source Network Address: 0.0.0.0
+Oct 8 12:12:44 sshd[1003]: Failed login for user1 from Source Network Address: 192.168.1.22
+Oct 8 12:13:15 sshd[1004]: Failed login for test from Source Network Address: 10.0.0.55
+

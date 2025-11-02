@@ -1,0 +1,15 @@
+Falha de login do IP 192.168.0.10
+Conexão permitida de 10.0.0.1
+Falha repetida do IP 192.168.0.10
+Tentativa de acesso suspeita do IP 172.16.5.23
+Falha de login do IP 10.0.0.1
+Acesso autorizado de 8.8.8.8
+Falha de login do IP 192.168.1.50
+Nova tentativa de conexão do IP 172.16.5.23
+Acesso negado do IP 192.168.1.50
+Conexão estabelecida de 203.0.113.45
+Falha múltipla do IP 10.0.0.1
+Acesso negado de 203.0.113.45
+Ping recebido de 192.0.2.15
+Falha do IP 192.168.0.10 novamente detectada
+Conexão encerrada de 8.8.8.8
