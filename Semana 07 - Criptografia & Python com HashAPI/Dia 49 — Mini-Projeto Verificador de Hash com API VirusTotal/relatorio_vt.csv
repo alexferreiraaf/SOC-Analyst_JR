@@ -1,0 +1,3 @@
+Data/Hora,Arquivo,Hash,Status,Resultado,Malicious,Harmless,Link
+2025-11-13 11:06:41,teste01.txt,34e6c662b1ebf2ce958a380d46d8ec2ad78af9b3fa6bc582ea764360a0079e7f,Hash não encontrado na base do VirusTotal,Desconhecido,,,https://www.virustotal.com/gui/file/34e6c662b1ebf2ce958a380d46d8ec2ad78af9b3fa6bc582ea764360a0079e7f
+2025-11-13 11:06:56,teste02.txt,686759da850b0acae3bf62d66af8af0f942bc31f03a924be23e938265283b523,Hash não encontrado na base do VirusTotal,Desconhecido,,,https://www.virustotal.com/gui/file/686759da850b0acae3bf62d66af8af0f942bc31f03a924be23e938265283b523

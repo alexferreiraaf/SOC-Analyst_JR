@@ -1,0 +1,7 @@
+[2025-11-13 08:42:15] ALERTA: executável suspeito detectado → malware_teste.exe
+[2025-11-13 08:45:32] INFO: arquivo analisado com sucesso → safe_app.exe
+[2025-11-13 09:02:48] ALERTA: executável suspeito detectado → trojan_sample.exe
+[2025-11-13 09:15:11] AVISO: comportamento anômalo em processo → updater.exe
+[2025-11-13 09:33:55] ALERTA: executável suspeito detectado → virus_fake.exe
+[2025-11-13 09:44:02] INFO: varredura concluída sem incidentes.
+

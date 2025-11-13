@@ -1,7 +1,7 @@
 import requests
 
 # Substitua pela sua chave da API VirusTotal
-API_KEY = "65f0d8926ea72ab59694a2d229cbf7f5808fadddfa0b440f0778b7700bc8f478"
+API_KEY = ""
 HASH = input("Digite o hash SHA256 do arquivo: ")
 
 url = f"https://www.virustotal.com/api/v3/files/{HASH}"
