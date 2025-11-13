@@ -1,0 +1,4 @@
+API,Status,Tempo de Resposta (s),Tamanho da Resposta (bytes)
+IPify,OK,0.211,23
+GitHub,OK,0.068,2262
+IPinfo,OK,0.203,346

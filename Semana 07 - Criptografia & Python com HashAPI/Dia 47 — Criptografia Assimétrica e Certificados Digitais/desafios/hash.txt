@@ -1,0 +1,1 @@
+SHA2-256(mensagem_confidencial.txt)= 0597e16068720a7b1a145c64c33fbf7c60d9f0dadcc6cae80c4ab26ccf279ea6
