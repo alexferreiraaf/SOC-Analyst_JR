@@ -1,0 +1,10 @@
+=== Relatório de Tentativas de Login ===
+Data de geração: Wed Nov 19 03:50:45 PM UTC 2025
+
+🔹 Top 5 IPs com mais falhas:
+      2 COMMAND=/usr/bin/grep
+
+🔹 Logins bem-sucedidos recentes:
+Nov 19 15:28:59 labvm sudo:     root : TTY=pts/3 ; PWD=/home/analyst/VM/SOC/Dia 51 — Revisão de Linux (Logs e Comandos) ; USER=root ; COMMAND=/usr/bin/grep Accepted password /var/log/auth.log
+Nov 19 15:45:06 labvm sshd[4249]: Accepted password for analyst from 192.168.5.6 port 53326 ssh2
+
