@@ -1,0 +1,23 @@
+Nov 20 08:17:01 srv-prod CRON[1001]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Nov 20 08:18:15 srv-prod sshd[1205]: Failed password for root from 192.168.1.200 port 4412 ssh2
+Nov 20 08:18:17 srv-prod sshd[1205]: Failed password for root from 192.168.1.200 port 4412 ssh2
+Nov 20 08:18:20 srv-prod sshd[1205]: Failed password for root from 192.168.1.200 port 4412 ssh2
+Nov 20 08:18:22 srv-prod sshd[1205]: Failed password for root from 192.168.1.200 port 4412 ssh2
+Nov 20 08:18:25 srv-prod sshd[1205]: Failed password for invalid user admin from 192.168.1.200 port 4412 ssh2
+Nov 20 08:18:29 srv-prod sshd[1205]: Failed password for invalid user support from 192.168.1.200 port 4412 ssh2
+Nov 20 08:20:01 srv-prod systemd: Created slice User Slice of UID 1000.
+Nov 20 08:20:01 srv-prod systemd: Starting User Runtime Directory /run/user/1000...
+Nov 20 08:22:10 srv-prod sshd[1340]: Accepted password for ubuntu from 10.0.0.5 port 55210 ssh2
+Nov 20 08:22:10 srv-prod sshd[1340]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Nov 20 08:25:00 srv-prod sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Nov 20 08:30:45 srv-prod sshd[1450]: Failed password for root from 45.22.11.99 port 3320 ssh2
+Nov 20 08:30:48 srv-prod sshd[1450]: Failed password for root from 45.22.11.99 port 3320 ssh2
+Nov 20 08:30:50 srv-prod sshd[1450]: Failed password for root from 45.22.11.99 port 3320 ssh2
+Nov 20 08:35:12 srv-prod sshd[1500]: Failed password for invalid user ubnt from 103.20.1.5 port 1200 ssh2
+Nov 20 08:40:00 srv-prod sshd[1600]: Failed password for root from 192.168.1.200 port 4412 ssh2
+Nov 20 08:40:02 srv-prod sshd[1600]: Failed password for root from 192.168.1.200 port 4412 ssh2
+Nov 20 08:40:05 srv-prod sshd[1600]: Failed password for root from 192.168.1.200 port 4412 ssh2
+Nov 20 09:01:01 srv-prod CRON[2201]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+Nov 20 09:15:10 srv-prod sshd[2300]: Failed password for root from 200.10.5.1 port 2211 ssh2
+Nov 20 09:15:12 srv-prod sshd[2300]: Failed password for admin from 200.10.5.1 port 2211 ssh2
+Nov 20 09:20:00 srv-prod sshd[2400]: Failed password for root from 192.168.1.200 port 4412 ssh2
