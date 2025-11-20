@@ -7,7 +7,7 @@ from datetime import datetime
 # --- CONFIGURAÇÕES DO MINI-SOC ---
 ARQUIVO_ENTRADA = "suspeitos.txt"
 ARQUIVO_SAIDA = "relatorio_final_soc.csv"
-API_KEY_ABUSE = "660400690376c9a376e984ceab851d07d33e7c7f1040c960b062d30e9c1c3b888c79495ed72ede27"  # 🔑 Insira sua chave do AbuseIPDB aqui
+API_KEY_ABUSE = "SUA API-AQUI"  # 🔑 Insira sua chave do AbuseIPDB aqui
 
 # Limites para considerar um IP perigoso
 LIMITE_SCORE_RISCO = 20  # Se a pontuação for maior que 20, gera alerta
@@ -33,7 +33,7 @@ def consultar_ipinfo(ip):
 
 def consultar_abuseipdb(ip, api_key):
     """Consulta a reputação de segurança do IP."""
-    if api_key == "660400690376c9a376e984ceab851d07d33e7c7f1040c960b062d30e9c1c3b888c79495ed72ede27" or ip.startswith(("192.168.", "10.")):
+    if api_key == "SUA API-AQUI" or ip.startswith(("192.168.", "10.")):
         return {"score": 0, "reports": 0, "uso": "N/A"}
 
     url = "https://api.abuseipdb.com/api/v2/check"

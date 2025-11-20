@@ -10,7 +10,7 @@ ARQUIVO_SAIDA = "relatorio_final_soc.csv"
 ARQUIVO_HTML = "dashboard_soc.html"
 
 # 🔑 CHAVES DE API (Substitua pelas suas)
-API_KEY_ABUSE = "660400690376c9a376e984ceab851d07d33e7c7f1040c960b062d30e9c1c3b888c79495ed72ede27" 
+API_KEY_ABUSE = "SUA API-AQUI" 
 DISCORD_WEBHOOK = ""  # Cole seu Webhook do Discord aqui para ativar
 
 # Limites de Risco
@@ -42,7 +42,7 @@ def consultar_ipinfo(ip):
     return {"pais": "Erro", "org": "Erro", "cidade": "Erro"}
 
 def consultar_abuseipdb(ip, api_key):
-    if api_key == "660400690376c9a376e984ceab851d07d33e7c7f1040c960b062d30e9c1c3b888c79495ed72ede27" or ip.startswith(("192.168.", "10.")):
+    if api_key == "SUA API-AQUI" or ip.startswith(("192.168.", "10.")):
         return {"score": 0, "reports": 0, "uso": "N/A"}
     
     url = "https://api.abuseipdb.com/api/v2/check"

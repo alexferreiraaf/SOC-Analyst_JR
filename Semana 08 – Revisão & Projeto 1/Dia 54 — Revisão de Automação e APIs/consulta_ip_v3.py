@@ -5,7 +5,7 @@ from datetime import datetime
 
 # --- CONFIGURAÇÃO ---
 ALVO = "8.8.8.8"  # IP para consulta (DNS Google como exemplo)
-ABUSE_IPDB_KEY = "660400690376c9a376e984ceab851d07d33e7c7f1040c960b062d30e9c1c3b888c79495ed72ede27"  # ⚠️ Insira sua API Key do AbuseIPDB aqui
+ABUSE_IPDB_KEY = "SUA API-AQUI"  # ⚠️ Insira sua API Key do AbuseIPDB aqui
 
 def get_geoip(ip):
     """Consulta dados geográficos no ipinfo.io (Não requer chave para baixo volume)"""
@@ -20,7 +20,7 @@ def get_geoip(ip):
 
 def get_reputation(ip, api_key):
     """Consulta reputação no AbuseIPDB (Requer chave)"""
-    if api_key == "660400690376c9a376e984ceab851d07d33e7c7f1040c960b062d30e9c1c3b888c79495ed72ede27":
+    if api_key == "SUA API-AQUI":
         return None # Retorna vazio se o usuário não configurou a chave
         
     url = "https://api.abuseipdb.com/api/v2/check"
