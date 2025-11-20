@@ -1,0 +1,7 @@
+=== RELATÓRIO DE INCIDENTES CRÍTICOS ===
+[ALERTA] IP 192.168.1.100 detectado com 50 falhas.
+[ALERTA] IP 10.10.10.5 detectado com 20 falhas.
+[ALERTA] IP 192.168.1.15 detectado com 45 falhas.
+[ALERTA] IP 10.0.0.5 detectado com 15 falhas.
+[ALERTA] IP 45.33.22.11 detectado com 30 falhas.
+[ALERTA] IP 192.168.1.200 detectado com 15 falhas.

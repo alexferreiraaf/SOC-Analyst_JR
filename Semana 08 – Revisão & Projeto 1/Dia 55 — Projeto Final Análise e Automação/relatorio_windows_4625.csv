@@ -1,0 +1,5 @@
+Usuário (TargetUserName),IP Origem,Total Falhas,Data Coleta
+admin,192.168.1.50,2,2025-11-20 16:43
+root,45.33.22.11,1,2025-11-20 16:43
+guest,45.33.22.11,1,2025-11-20 16:43
+user2,10.0.0.200,1,2025-11-20 16:43

@@ -1,0 +1,3 @@
+RELATORIO DE ALERTAS - 2025-11-20 16:31:18.073374
+========================================
+[CRITICO] IP 10.0.0.200 realizou 7 tentativas de falha de login.
