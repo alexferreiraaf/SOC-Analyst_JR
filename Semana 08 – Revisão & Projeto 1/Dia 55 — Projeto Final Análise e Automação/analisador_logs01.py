@@ -8,7 +8,7 @@ from datetime import datetime
 
 # --- CONFIGURAÇÕES (PREENCHA AQUI NA VIDA REAL) ---
 # Obtenha token grátis em: https://ipinfo.io/signup
-IPINFO_TOKEN = "1cb7bfe729a920" 
+IPINFO_TOKEN = "SEU TOKEN AQUI" 
 # Crie um Webhook no seu servidor Discord (Editar Canal > Integrações > Webhooks)
 DISCORD_WEBHOOK_URL = "" 
 
