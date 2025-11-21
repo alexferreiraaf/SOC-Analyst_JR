@@ -34,8 +34,13 @@ projeto-soc-logs/
 
 # 🛡️ SOC Log Analyzer
 ## 📖 Descrição
-Este é um projeto de automação de segurança desenvolvido para analisar logs de autenticação (Linux/Windows). O script identifica padrões de ataques de força bruta, gera relatórios CSV e emite alertas automáticos.
+
 ---
+
+Este é um projeto de automação de segurança desenvolvido para analisar logs de autenticação (Linux/Windows). O script identifica padrões de ataques de força bruta, gera relatórios CSV e emite alertas automáticos.
+
+---
+
 ## 🚀 Funcionalidades
 Leitura de Logs: Suporte a arquivos .log e texto puro.
 
