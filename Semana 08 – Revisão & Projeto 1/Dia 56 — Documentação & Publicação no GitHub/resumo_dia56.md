@@ -31,7 +31,7 @@ projeto-soc-logs/
     ├── print_terminal.png
     └── print_csv.png
 
-#🛡️ SOC Log Analyzer
+# 🛡️ SOC Log Analyzer
 ## 📖 Descrição
 Este é um projeto de automação de segurança desenvolvido para analisar logs de autenticação (Linux/Windows). O script identifica padrões de ataques de força bruta, gera relatórios CSV e emite alertas automáticos.
 ---
