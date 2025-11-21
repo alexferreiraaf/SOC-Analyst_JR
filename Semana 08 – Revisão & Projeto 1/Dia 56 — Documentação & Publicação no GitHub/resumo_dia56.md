@@ -67,22 +67,27 @@ git clone [https://github.com/SEU-USUARIO/soc-log-analyzer.git](https://github.c
 cd soc-log-analyzer
 ```
 
-Execute o script:
+2. **Execute o script:**
+```bash
 python3 analisador_logs.py auth_sample.log
-Verifique os resultados:
+```
 
-Abra o arquivo relatorio.csv gerado.
+3. **Verifique os resultados:**
 
-Verifique se houve alertas em alertas.txt.
+- **Abra o arquivo `relatorio.csv` gerado.**
 
-📊 Exemplo de Saída (Terminal)
-Plaintext
+- **Verifique se houve alertas em `alertas.txt`.**
 
+## 📊 Exemplo de Saída (Terminal)
+
+```Plaintext
 [INFO] Iniciando análise de logs...
 [ALERTA] IP 192.168.1.50 detectado com 15 falhas de login!
 [SUCESSO] Relatório gerado: relatorio.csv
-⚖️ Licença
-Distribuído sob a licença MIT. Veja LICENSE para mais informações.
+```
+
+## ⚖️ Licença
+**Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.**
 
 💻 4. Guia Rápido de Git (Comandos)
 Passo 1: Inicializar e Configurar
