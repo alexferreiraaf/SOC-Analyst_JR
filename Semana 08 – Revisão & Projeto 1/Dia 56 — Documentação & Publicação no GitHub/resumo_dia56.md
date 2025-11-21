@@ -30,6 +30,7 @@ projeto-soc-logs/
 └── assets/                 # Pasta para imagens/prints
     ├── print_terminal.png
     └── print_csv.png
+    ```
 
 # 🛡️ SOC Log Analyzer
 ## 📖 Descrição
