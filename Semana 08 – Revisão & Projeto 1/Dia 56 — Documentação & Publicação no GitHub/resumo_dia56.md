@@ -89,27 +89,32 @@ python3 analisador_logs.py auth_sample.log
 ## ⚖️ Licença
 **Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.**
 
-💻 4. Guia Rápido de Git (Comandos)
-Passo 1: Inicializar e Configurar
-Bash
+## 💻 4. Guia Rápido de Git (Comandos)
 
+**Passo 1: Inicializar e Configurar**
+
+```Bash
 # Inicia o repositório na pasta
 git init
 
 # Evita subir arquivos desnecessários
 echo "__pycache__/" > .gitignore
 echo "*.tmp" >> .gitignore
-Passo 2: Salvar as alterações (Commit)
-Bash
+```
 
+**Passo 2: Salvar as alterações (Commit)**
+
+```Bash
 # Adiciona todos os arquivos
 git add .
 
 # Cria o ponto de salvamento (snapshot)
 git commit -m "Primeira versão: Analisador de Logs SOC"
-Passo 3: Enviar para o GitHub (Push)
-Bash
+```
 
+**Passo 3: Enviar para o GitHub (Push)**
+
+```Bash
 # Renomeia a branch principal para 'main' (boa prática)
 git branch -M main
 
@@ -118,15 +123,17 @@ git remote add origin [https://github.com/SEU-USUARIO/NOME-DO-REPO.git](https://
 
 # Envia os arquivos
 git push -u origin main
-✅ Checklist de Entrega
-[ ] Script analisador_logs.py funcionando e sem erros.
+```
 
-[ ] Arquivo README.md escrito e formatado.
+## ✅ Checklist de Entrega
+- [ ] Script analisador_logs.py funcionando e sem erros.
 
-[ ] Pasta assets/ com prints provando que funciona.
+- [ ] Arquivo README.md escrito e formatado.
 
-[ ] Licença LICENSE (MIT) adicionada.
+- [ ] Pasta assets/ com prints provando que funciona.
 
-[ ] Código subido no GitHub (Repositório Público).
+- [ ] Licença LICENSE (MIT) adicionada.
 
-[ ] Link do projeto postado no LinkedIn.
+- [ ] Código subido no GitHub (Repositório Público).
+
+- [ ] Link do projeto postado no LinkedIn.
