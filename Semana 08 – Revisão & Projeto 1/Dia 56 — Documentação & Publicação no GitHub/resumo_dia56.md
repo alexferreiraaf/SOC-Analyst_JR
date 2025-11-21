@@ -50,18 +50,22 @@ Leitura de Logs: Suporte a arquivos .log e texto puro.
 
 - **Alertas:** Cria um arquivo alertas.txt para IPs com comportamento suspeito.
 
-###🛠️ Tecnologias Utilizadas
-Python 3
+### 🛠️ Tecnologias Utilizadas
 
-Expressões Regulares (Regex)
+- **Python 3**
 
-Manipulação de Arquivos e I/O
+- **Expressões Regulares (Regex)**
 
-##⚙️ Como Executar
-Clone o repositório:
+- **Manipulação de Arquivos e I/O**
 
+---
+
+## ⚙️ Como Executar
+1. **Clone o repositório:**
+```bash
 git clone [https://github.com/SEU-USUARIO/soc-log-analyzer.git](https://github.com/SEU-USUARIO/soc-log-analyzer.git)
 cd soc-log-analyzer
+```
 
 Execute o script:
 python3 analisador_logs.py auth_sample.log
