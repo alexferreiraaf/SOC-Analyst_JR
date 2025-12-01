@@ -20,37 +20,37 @@ Um SIEM é uma plataforma que reúne:
 
 É uma ferramenta essencial para analistas SOC, permitindo detecção, investigação e resposta a incidentes.
 
-🏗️ 2. Componentes Principais de um SIEM
-📥 Data Sources
+### 🏗️ 2. Componentes Principais de um SIEM
+### 📥 Data Sources
 
 São as fontes que geram eventos. Exemplos:
 
-Windows Event Logs
+- Windows Event Logs
 
-Syslog (Linux)
+- Syslog (Linux)
 
-Firewalls
+- Firewalls
 
-IDS/IPS
+- IDS/IPS
 
-Proxy / Web Gateway
+- Proxy / Web Gateway
 
-🚚 Collectors / Forwarders
+### 🚚 Collectors / Forwarders
 
 Agentes que enviam logs para o SIEM.
 Exemplos:
 
-Splunk Universal Forwarder
+- Splunk Universal Forwarder
 
-Syslog-ng
+- Syslog-ng
 
-Filebeat
+- Filebeat
 
-🧩 Parser / Normalização
+### 🧩 Parser / Normalização
 
-Transforma dados brutos em campos estruturados (ex: src_ip, user, action).
+Transforma dados brutos em campos estruturados (ex: `src_ip`, `user`, `action`).
 
-🔎 Correlation Engine
+**🔎 Correlation Engine**
 
 Aplica regras lógicas para identificar comportamentos suspeitos e gerar alertas.
 
