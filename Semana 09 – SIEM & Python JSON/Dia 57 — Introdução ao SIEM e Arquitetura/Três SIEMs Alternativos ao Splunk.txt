@@ -1,0 +1,21 @@
+Três SIEMs Alternativos ao Splunk
+
+Aqui estão três bem usados de verdade em SOCs profissionais:
+
+🔹 IBM QRadar
+
+Muito forte em correlação e visibilidade de rede.
+
+Bastante usado em SOCs grandes.
+
+🔹 Elastic SIEM (ELK Stack)
+
+Gratuito/open-source.
+
+Excelente para ingestão massiva e dashboards customizáveis.
+
+🔹 Wazuh SIEM
+
+Open-source, leve e ideal para ambientes médios.
+
+Ótimo para EDR + SIEM juntos.

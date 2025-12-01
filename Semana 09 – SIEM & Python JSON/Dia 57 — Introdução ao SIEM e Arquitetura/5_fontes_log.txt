@@ -1,0 +1,23 @@
+Cinco Fontes de Log Comuns em Ambientes Corporativos
+
+Windows Event Logs
+
+Autenticação, falhas de login, criação de usuários, acesso a arquivos.
+
+Linux Syslog
+
+Autenticações SSH, permissão elevada, processos, serviços, kernel.
+
+Firewall Logs
+
+Conexões permitidas/bloqueadas, portas, tráfego incomum.
+
+Proxy / Web Gateway Logs
+
+Sites acessados, downloads suspeitos, tráfego HTTP/S.
+
+Active Directory (AD)
+
+Criação de usuários, membership, GPO, mudanças críticas.
+
+(Se quiser posso te passar 10 fontes ou separar por categorias SOC)
