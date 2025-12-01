@@ -54,21 +54,21 @@ Transforma dados brutos em campos estruturados (ex: `src_ip`, `user`, `action`).
 
 Aplica regras lógicas para identificar comportamentos suspeitos e gerar alertas.
 
-📊 Dashboards / Visualização
+**📊 Dashboards / Visualização**
 
 Área onde analistas SOC fazem buscas, dashboards e investigações.
 
-🔄 3. Ciclo de Vida de um SIEM
+### 🔄 3. Ciclo de Vida de um SIEM
 
-Coleta de Logs
+1. **Coleta de Logs**
 
-Normalização e Parsing
+2. **Normalização e Parsing**
 
-Correlação
+3. **Correlação**
 
-Geração de Alertas
+4. **Geração de Alertas**
 
-Investigação pelo SOC
+5. **Investigação pelo SOC**
 
 🧠 Atividades Práticas do Dia
 
