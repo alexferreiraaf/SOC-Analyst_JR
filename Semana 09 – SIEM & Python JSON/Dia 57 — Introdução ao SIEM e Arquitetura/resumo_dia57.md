@@ -58,7 +58,7 @@ Aplica regras lógicas para identificar comportamentos suspeitos e gerar alertas
 
 Área onde analistas SOC fazem buscas, dashboards e investigações.
 
---
+---
 
 ### 🔄 3. Ciclo de Vida de um SIEM
 
