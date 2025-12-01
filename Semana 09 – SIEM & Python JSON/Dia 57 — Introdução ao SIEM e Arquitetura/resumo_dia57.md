@@ -88,8 +88,8 @@ Aplica regras lógicas para identificar comportamentos suspeitos e gerar alertas
 
 4. Pesquisar **3 alternativas ao Splunk**, como:
 
-- IBM QRadar
+  - IBM QRadar
 
-- ELK Stack (Elastic)
+  - ELK Stack (Elastic)
 
-- Wazuh SIEM
+  - Wazuh SIEM
