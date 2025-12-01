@@ -78,18 +78,18 @@ Aplica regras lógicas para identificar comportamentos suspeitos e gerar alertas
 
 ### 🧠 Atividades Práticas do Dia
 
-1. Criar um **diagrama do fluxo SIEM**
+- 1. Criar um **diagrama do fluxo SIEM**
 (Excalidraw, Lucidchart, PowerPoint, Draw.io).
 
-Listar 5 fontes de log comuns em ambientes corporativos.
+- 2. Listar **5 fontes de log** comuns em ambientes corporativos.
 
-Ler o artigo oficial:
-Splunk SIEM Overview
+- 3. Ler o artigo oficial:
+**Splunk SIEM Overview**
 
-Pesquisar 3 alternativas ao Splunk, como:
+- 4. Pesquisar **3 alternativas ao Splunk**, como:
 
-IBM QRadar
+- IBM QRadar
 
-ELK Stack (Elastic)
+- ELK Stack (Elastic)
 
-Wazuh SIEM
+- Wazuh SIEM
