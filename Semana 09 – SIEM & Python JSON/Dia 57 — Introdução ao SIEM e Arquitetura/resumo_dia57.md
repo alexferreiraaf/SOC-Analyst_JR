@@ -8,15 +8,15 @@ Compreender o que é um SIEM, como funciona sua arquitetura interna e qual o flu
 ## 🧩 1. Conceitos Fundamentais
 ### 🔐 O que é SIEM (Security Information and Event Management)
 
-- Um SIEM é uma plataforma que reúne:
+Um SIEM é uma plataforma que reúne:
 
-Coleta de logs
+- Coleta de logs
 
-Normalização e correlação de eventos
+- Normalização e correlação de eventos
 
-Geração de alertas
+- Geração de alertas
 
-Dashboards e visualização
+- Dashboards e visualização
 
 É uma ferramenta essencial para analistas SOC, permitindo detecção, investigação e resposta a incidentes.
 
