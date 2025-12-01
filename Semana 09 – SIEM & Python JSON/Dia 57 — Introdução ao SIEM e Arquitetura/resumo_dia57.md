@@ -60,15 +60,15 @@ Aplica regras lógicas para identificar comportamentos suspeitos e gerar alertas
 
 ### 🔄 3. Ciclo de Vida de um SIEM
 
-1. **Coleta de Logs**
+**1. Coleta de Logs**
 
-2. **Normalização e Parsing**
+**2. Normalização e Parsing**
 
-3. **Correlação**
+**3. Correlação**
 
-4. **Geração de Alertas**
+**4. Geração de Alertas**
 
-5. **Investigação pelo SOC**
+**5. Investigação pelo SOC**
 
 🧠 Atividades Práticas do Dia
 
