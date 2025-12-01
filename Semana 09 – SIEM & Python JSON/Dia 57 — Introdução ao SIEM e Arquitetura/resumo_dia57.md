@@ -58,6 +58,8 @@ Aplica regras lógicas para identificar comportamentos suspeitos e gerar alertas
 
 Área onde analistas SOC fazem buscas, dashboards e investigações.
 
+--
+
 ### 🔄 3. Ciclo de Vida de um SIEM
 
 **1. Coleta de Logs**
@@ -70,9 +72,9 @@ Aplica regras lógicas para identificar comportamentos suspeitos e gerar alertas
 
 **5. Investigação pelo SOC**
 
-🧠 Atividades Práticas do Dia
+### 🧠 Atividades Práticas do Dia
 
-Criar um diagrama do fluxo SIEM
+1. Criar um **diagrama do fluxo SIEM**
 (Excalidraw, Lucidchart, PowerPoint, Draw.io).
 
 Listar 5 fontes de log comuns em ambientes corporativos.
