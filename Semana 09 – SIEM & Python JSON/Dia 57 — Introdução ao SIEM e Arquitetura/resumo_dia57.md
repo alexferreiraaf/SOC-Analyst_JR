@@ -20,6 +20,8 @@ Um SIEM é uma plataforma que reúne:
 
 É uma ferramenta essencial para analistas SOC, permitindo detecção, investigação e resposta a incidentes.
 
+---
+
 ### 🏗️ 2. Componentes Principais de um SIEM
 ### 📥 Data Sources
 
@@ -71,6 +73,8 @@ Aplica regras lógicas para identificar comportamentos suspeitos e gerar alertas
 **4. Geração de Alertas**
 
 **5. Investigação pelo SOC**
+
+---
 
 ### 🧠 Atividades Práticas do Dia
 
