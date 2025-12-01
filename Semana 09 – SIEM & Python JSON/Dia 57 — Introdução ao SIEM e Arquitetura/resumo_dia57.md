@@ -1,10 +1,12 @@
 # 📘 Resumo do Dia 57 — Introdução ao SIEM e Arquitetura
-🎯 Objetivo do Dia
+## 🎯 Objetivo do Dia
 
 Compreender o que é um SIEM, como funciona sua arquitetura interna e qual o fluxo de processamento de logs utilizado por analistas SOC para detectar ameaças.
 
-🧩 1. Conceitos Fundamentais
-🔐 O que é SIEM (Security Information and Event Management)
+---
+
+## 🧩 1. Conceitos Fundamentais
+### 🔐 O que é SIEM (Security Information and Event Management)
 
 Um SIEM é uma plataforma que reúne:
 
