@@ -1,0 +1,18 @@
+[
+    {
+        "source_ip": "10.0.0.5",
+        "action": "blocked",
+        "destination_port": 22
+    },
+    {
+        "source_ip": "192.168.1.10",
+        "action": "allowed",
+        "destination_port": 443
+    },
+    {
+        "source_ip": "8.8.8.8",
+        "action": "blocked",
+        "destination_port": 3389
+    }
+]
+

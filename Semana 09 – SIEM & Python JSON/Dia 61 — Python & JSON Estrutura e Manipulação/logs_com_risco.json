@@ -1,0 +1,23 @@
+[
+    {
+        "user": "root",
+        "ip": "10.0.0.5",
+        "falhas": 5,
+        "status": "FAILED",
+        "risco": 10
+    },
+    {
+        "user": "admin",
+        "ip": "192.168.1.10",
+        "falhas": 1,
+        "status": "SUCCESS",
+        "risco": 2
+    },
+    {
+        "user": "guest",
+        "ip": "8.8.8.8",
+        "falhas": 4,
+        "status": "FAILED",
+        "risco": 8
+    }
+]

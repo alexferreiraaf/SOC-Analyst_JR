@@ -1,0 +1,18 @@
+[
+    {
+        "process": "sshd",
+        "src_ip": "10.0.0.5",
+        "message": "authentication failure"
+    },
+    {
+        "process": "cron",
+        "src_ip": "127.0.0.1",
+        "message": "scheduled job executed"
+    },
+    {
+        "process": "sudo",
+        "src_ip": "8.8.8.8",
+        "message": "command executed by user"
+    }
+]
+

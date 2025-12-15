@@ -1,0 +1,16 @@
+{
+    "8.8.8.8": [
+        "auth.json",
+        "syslog.json",
+        "firewall.json"
+    ],
+    "192.168.1.10": [
+        "auth.json",
+        "firewall.json"
+    ],
+    "10.0.0.5": [
+        "auth.json",
+        "syslog.json",
+        "firewall.json"
+    ]
+}
