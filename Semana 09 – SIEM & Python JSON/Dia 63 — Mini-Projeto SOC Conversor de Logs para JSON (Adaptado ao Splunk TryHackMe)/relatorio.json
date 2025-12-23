@@ -1,0 +1,10 @@
+{
+  "total_eventos": 10,
+  "total_falhas": 9,
+  "ips_suspeitos": [
+    "192.168.0.10"
+  ],
+  "usuario_mais_atacado": "root",
+  "evento_mais_comum": "ssh_failed"
+}
+

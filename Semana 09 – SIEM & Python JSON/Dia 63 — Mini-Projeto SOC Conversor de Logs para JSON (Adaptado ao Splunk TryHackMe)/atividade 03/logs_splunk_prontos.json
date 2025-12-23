@@ -1,0 +1,9 @@
+{
+  "timestamp": "Jan 12 10:45:12",
+  "src_ip": "192.168.0.10",
+  "user": "root",
+  "event_type": "ssh_login",
+  "status": "failed",
+  "service": "ssh"
+}
+

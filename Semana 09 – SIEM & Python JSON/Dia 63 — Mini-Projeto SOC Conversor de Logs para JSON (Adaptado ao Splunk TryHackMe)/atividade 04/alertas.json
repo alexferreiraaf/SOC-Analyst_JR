@@ -1,0 +1,9 @@
+[
+  {
+    "tipo_alerta": "brute_force_ip",
+    "src_ip": "192.168.0.10",
+    "total_falhas": 12,
+    "criticidade": "alta"
+  }
+]
+
