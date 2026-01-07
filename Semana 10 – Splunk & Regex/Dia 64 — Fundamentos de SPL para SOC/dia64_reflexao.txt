@@ -1,0 +1,18 @@
+Dia 64 — Reflexão sobre SPL e Logs
+
+Hoje eu entendi que SPL não é sobre decorar comandos, mas sobre raciocínio.
+
+Aprendi que:
+- Tudo antes do pipe (|) serve para filtrar eventos.
+- Tudo depois do pipe serve para transformar e organizar dados.
+- Os campos são a parte mais importante da investigação.
+
+Percebi que:
+- Sem entender os campos (_time, user, src, host), não existe investigação SOC.
+- Uma busca simples já pode revelar ataques se for bem pensada.
+- SPL é uma ferramenta de investigação, não apenas de consulta.
+
+Agora me sinto mais confortável para:
+- Ler buscas SPL
+- Ajustar filtros
+- Explorar logs sem me perder

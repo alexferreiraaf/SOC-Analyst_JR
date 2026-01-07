@@ -1,0 +1,6 @@
+index=main
+🧠 Entenda:
+
+- Quantos eventos existem?
+- Que tipo de log aparece?
+- Que campos você vê na lateral?

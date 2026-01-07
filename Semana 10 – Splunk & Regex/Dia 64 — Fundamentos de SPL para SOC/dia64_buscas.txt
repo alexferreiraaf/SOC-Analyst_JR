@@ -1,0 +1,16 @@
+# Dia 64 — Buscas Executadas no Splunk
+
+index=main
+
+index=main action=login
+
+index=main host=*
+
+index=main host=server01
+
+index=main user=*
+
+index=main user=admin
+
+index=main action=login
+| table _time user src host action
