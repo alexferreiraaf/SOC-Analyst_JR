@@ -1,0 +1,27 @@
+# Dia 68 — Queries SPL dos Painéis
+
+# Failed Logins Over Time
+index=main "Failed password"
+| timechart span=5m count
+
+# Top Attacking IPs
+index=main "Failed password"
+| stats count by src
+| sort -count
+| head 10
+
+# Targeted Users
+index=main "Failed password"
+| stats count by user
+| sort -count
+| head 10
+
+# KPI - Total Failed Logins
+index=main "Failed password"
+| stats count
+
+# Mini-desafio - Fora do horário comercial
+index=main "Failed password"
+| eval hora=strftime(_time,"%H")
+| where hora < 8 OR hora > 18
+| timechart span=1h count
