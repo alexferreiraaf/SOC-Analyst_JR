@@ -1,0 +1,20 @@
+# Dia 67 — Configuração dos Alertas
+
+Alert Type: Scheduled
+Run every: 5 minutes
+Time range: Last 5 minutes
+
+Trigger Condition:
+- Number of Results > 0
+
+Threshold:
+- count > 5 (padrão)
+- count > 10 (fora do horário comercial)
+
+Severidade:
+- High
+
+Ações (teóricas):
+- Add to Triggered Alerts
+- Notificação SOC
+- Abertura de ticket

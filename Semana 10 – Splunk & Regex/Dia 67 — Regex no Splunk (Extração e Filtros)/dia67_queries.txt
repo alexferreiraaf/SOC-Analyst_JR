@@ -1,0 +1,24 @@
+# Dia 67 — Queries SPL Utilizadas
+
+# Query base - brute force por IP
+index=main "Failed password"
+| stats count by src
+| where count > 5
+
+# Brute force por usuário
+index=main "Failed password"
+| stats count by user
+| where count > 5
+
+# Brute force fora do horário comercial
+index=main "Failed password"
+| eval hora=strftime(_time,"%H")
+| where hora < 8 OR hora > 18
+| stats count by src
+| where count > 10
+
+# Excluindo ruído
+index=main "Failed password"
+| where user!="root" AND src!="127.0.0.1"
+| stats count by src
+| where count > 5
