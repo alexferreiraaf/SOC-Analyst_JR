@@ -1,0 +1,5 @@
+index=main "Failed password"
+| rex field=_raw "(?<src_ip>\b\d{1,3}(\.\d{1,3}){3}\b)"
+| stats count as tentativas dc(user) as usuarios by src_ip
+| where tentativas > 10 AND usuarios > 5
+| sort -tentativas

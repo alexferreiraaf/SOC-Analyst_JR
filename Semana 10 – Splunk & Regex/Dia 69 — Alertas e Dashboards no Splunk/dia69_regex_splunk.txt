@@ -1,0 +1,15 @@
+# Dia 69 — Regex no Splunk (SPL)
+
+# Extrair IP de falhas de login
+index=main "Failed password"
+| rex field=_raw "(?<ip>\b\d{1,3}(\.\d{1,3}){3}\b)"
+| table _time ip user host
+
+# Detectar tentativa em usuário inválido
+index=main
+| where match(_raw,"Failed password for invalid user")
+
+# Extrair usuário e contar falhas
+index=main "Failed password"
+| rex "user (?<user>\w+)"
+| stats count by user
