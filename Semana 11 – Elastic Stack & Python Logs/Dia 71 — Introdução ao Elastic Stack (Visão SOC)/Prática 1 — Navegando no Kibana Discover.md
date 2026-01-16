@@ -44,7 +44,7 @@ Em termos práticos:
 - 📊 Não é dado de aplicação genérica
 - 🔐 É dado de segurança
 - 🚨 Serve para detectar:
-- - falhas de login
+  - falhas de login
 acessos suspeitos
 comportamento anômalo
 possíveis ataques
