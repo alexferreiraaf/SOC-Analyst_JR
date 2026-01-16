@@ -30,27 +30,21 @@ Nos eventos do arquivo, aparecem campos típicos como:
 - `@timestamp` → tempo do evento
 - `event.action` → o que aconteceu
 - `event.category` → categoria do evento (ex: authentication, process, network)
-- event.outcome → sucesso ou falha
-- user.name → usuário envolvido
-- source.ip → origem da ação
+- `event.outcome` → sucesso ou falha
+- `user.name` → usuário envolvido
+- `source.ip` → origem da ação
+
 📌 Esses campos seguem o padrão ECS (Elastic Common Schema).
 
-✅ Conclusão SOC
+### ✅ Conclusão SOC
 
-Esses dados representam eventos de segurança e atividade de sistema, normalizados pelo Elastic, usados para monitoramento, detecção de incidentes e investigação SOC.
+> Esses dados representam eventos de segurança e atividade de sistema, normalizados pelo Elastic, usados para monitoramento, detecção de incidentes e investigação SOC.
 
 Em termos práticos:
-
-📊 Não é dado de aplicação genérica
-
-🔐 É dado de segurança
-
-🚨 Serve para detectar:
-
-falhas de login
-
+- 📊 Não é dado de aplicação genérica
+- 🔐 É dado de segurança
+- 🚨 Serve para detectar:
+- - falhas de login
 acessos suspeitos
-
 comportamento anômalo
-
 possíveis ataques
