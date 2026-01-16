@@ -14,40 +14,25 @@ Ao observar o CSV do Kibana Discover, note que:
 > Sim, os eventos são recentes, pois possuem timestamps contínuos e próximos entre si, típicos de dados > coletados em tempo real ou em laboratório ativo.
 
 📌 Em ambiente real, isso indicaria:
+- Sistema ligado
+- Coleta funcionando
+- Dados relevantes para investigação atual
 
-Sistema ligado
-
-Coleta funcionando
-
-Dados relevantes para investigação atual
-
-❓ Pergunta 2: “Que tipo de dado isso representa?”
-🧠 Leitura SOC (o mais importante)
-
+### ❓ Pergunta 2: “Que tipo de dado isso representa?”
+### 🧠 Leitura SOC (o mais importante)
 Esses eventos representam logs normalizados no Elastic Stack, muito provavelmente provenientes de:
+- Endpoint / Sistema Operacional
+- Autenticação / Atividade de usuário
+- Eventos de segurança
 
-Endpoint / Sistema Operacional
-
-Autenticação / Atividade de usuário
-
-Eventos de segurança
-
-🔎 Indicadores que mostram isso
-
+### 🔎 Indicadores que mostram isso
 Nos eventos do arquivo, aparecem campos típicos como:
-
-@timestamp → tempo do evento
-
-event.action → o que aconteceu
-
-event.category → categoria do evento (ex: authentication, process, network)
-
-event.outcome → sucesso ou falha
-
-user.name → usuário envolvido
-
-source.ip → origem da ação
-
+- `@timestamp` → tempo do evento
+- `event.action` → o que aconteceu
+- `event.category` → categoria do evento (ex: authentication, process, network)
+- event.outcome → sucesso ou falha
+- user.name → usuário envolvido
+- source.ip → origem da ação
 📌 Esses campos seguem o padrão ECS (Elastic Common Schema).
 
 ✅ Conclusão SOC
