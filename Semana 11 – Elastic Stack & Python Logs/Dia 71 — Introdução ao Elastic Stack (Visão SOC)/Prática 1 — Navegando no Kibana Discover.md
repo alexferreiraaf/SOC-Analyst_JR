@@ -1,6 +1,6 @@
-# 🧪 Prática 1 — Análise Inicial SOC (Elastic / Kibana)
-## ❓ Pergunta 1: “Esses eventos são recentes?”
-## 🧠 Como um SOC responde isso
+## 🧪 Prática 1 — Análise Inicial SOC (Elastic / Kibana)
+### ❓ Pergunta 1: “Esses eventos são recentes?”
+### 🧠 Como um SOC responde isso
 No Elastic, a resposta vem principalmente do campo:
 - @timestamp → indica quando o evento ocorreu
 ## 📌 O que analisar no arquivo
@@ -9,7 +9,7 @@ Ao observar o CSV do Kibana Discover, note que:
 - Eles estão concentrados em um intervalo específico de tempo
 - Não são logs históricos antigos (anos atrás)
 
-## ✅ Conclusão SOC
+### ✅ Conclusão SOC
 
 > Sim, os eventos são recentes, pois possuem timestamps contínuos e próximos entre si, típicos de dados > coletados em tempo real ou em laboratório ativo.
 
