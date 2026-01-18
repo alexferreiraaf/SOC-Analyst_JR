@@ -1,0 +1,26 @@
+CAMPOS ESSENCIAIS POR TIPO DE LOG
+
+Web:
+- source.ip
+- user.name
+- http.response.status_code
+
+Auth:
+- source.ip
+- user.name
+- event.action
+
+Firewall:
+- source.ip
+- destination.ip
+- event.action
+
+VPN:
+- user.name
+- source.ip
+- event.outcome
+
+EDR:
+- host.name
+- process.name
+- event.action

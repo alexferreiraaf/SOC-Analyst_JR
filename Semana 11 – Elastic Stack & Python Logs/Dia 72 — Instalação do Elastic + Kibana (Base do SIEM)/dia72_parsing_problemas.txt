@@ -1,0 +1,11 @@
+IMPACTOS DE PARSING RUIM EM SOC
+
+- Campos essenciais não são criados
+- Alertas deixam de disparar
+- Aumento de falso negativo
+- Investigação vira manual
+- SOC perde visibilidade
+- MTTR aumenta
+
+Conclusão:
+Problemas de ingestão geram falhas silenciosas de segurança.
