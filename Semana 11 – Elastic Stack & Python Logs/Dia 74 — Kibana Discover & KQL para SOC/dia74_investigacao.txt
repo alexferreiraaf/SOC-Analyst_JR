@@ -1,0 +1,11 @@
+Dia 74 — Investigação SOC no Kibana Discover
+
+1. Abrir o alerta recebido
+2. Validar período correto no Time Picker
+3. Filtrar por event.action
+4. Identificar IPs envolvidos
+5. Verificar usuários impactados
+6. Contar repetição de eventos
+7. Verificar se houve sucesso posterior
+8. Classificar severidade
+9. Decidir ação (bloqueio, monitoramento, escalonamento)
