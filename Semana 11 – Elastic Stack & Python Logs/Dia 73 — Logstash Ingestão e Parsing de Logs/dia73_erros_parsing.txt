@@ -1,0 +1,19 @@
+ERROS COMUNS DE PARSING E IMPACTOS EM SOC
+
+- Regex frágil
+  Impacto: campos não extraídos
+
+- Campo mal nomeado (fora do ECS)
+  Impacto: alertas e dashboards quebrados
+
+- IP não extraído
+  Impacto: impossível detectar brute force
+
+- Usuário vazio
+  Impacto: investigação manual
+
+- Timestamp ausente ou incorreto
+  Impacto: correlação e linha do tempo falham
+
+Conclusão:
+Parsing ruim = falha de detecção.
