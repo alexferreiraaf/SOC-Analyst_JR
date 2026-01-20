@@ -1,0 +1,12 @@
+Relatório de Acessos Suspeitos
+
+Total de IPs suspeitos: 3
+IPs identificados:
+- 192.168.1.10
+- 45.77.89.100
+- 91.240.118.172
+
+Ações recomendadas:
+- Monitorar tráfego
+- Aplicar rate limit
+- Avaliar bloqueio temporário
