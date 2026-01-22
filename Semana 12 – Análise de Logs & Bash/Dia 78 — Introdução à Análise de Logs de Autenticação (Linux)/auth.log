@@ -1,0 +1,22 @@
+Jan 15 00:01:02 server sshd[1023]: Failed password for invalid user admin from 45.77.89.100 port 51234 ssh2
+Jan 15 00:01:05 server sshd[1023]: Failed password for invalid user admin from 45.77.89.100 port 51235 ssh2
+Jan 15 00:01:07 server sshd[1023]: Failed password for invalid user admin from 45.77.89.100 port 51236 ssh2
+Jan 15 00:01:10 server sshd[1023]: Failed password for root from 45.77.89.100 port 51237 ssh2
+Jan 15 00:01:13 server sshd[1023]: Failed password for root from 45.77.89.100 port 51238 ssh2
+Jan 15 00:01:15 server sshd[1023]: Failed password for root from 45.77.89.100 port 51239 ssh2
+Jan 15 00:01:18 server sshd[1023]: Failed password for user from 45.77.89.100 port 51240 ssh2
+Jan 15 00:01:22 server sshd[1023]: Failed password for user from 45.77.89.100 port 51241 ssh2
+Jan 15 00:01:25 server sshd[1023]: Accepted password for root from 45.77.89.100 port 51242 ssh2
+Jan 15 08:15:44 server sshd[2044]: Accepted password for alex from 192.168.1.10 port 53421 ssh2
+Jan 15 08:17:10 server sudo:    alex : TTY=pts/0 ; PWD=/home/alex ; USER=root ; COMMAND=/bin/ls
+Jan 15 09:02:11 server sshd[2155]: Failed password for invalid user test from 103.21.244.55 port 42311 ssh2
+Jan 15 09:02:14 server sshd[2155]: Failed password for invalid user test from 103.21.244.55 port 42312 ssh2
+Jan 15 09:02:18 server sshd[2155]: Failed password for invalid user test from 103.21.244.55 port 42313 ssh2
+Jan 15 09:02:22 server sshd[2155]: Failed password for invalid user test from 103.21.244.55 port 42314 ssh2
+Jan 15 09:02:26 server sshd[2155]: Failed password for invalid user test from 103.21.244.55 port 42315 ssh2
+Jan 15 09:02:30 server sshd[2155]: Failed password for invalid user test from 103.21.244.55 port 42316 ssh2
+Jan 15 09:02:35 server sshd[2155]: Failed password for invalid user test from 103.21.244.55 port 42317 ssh2
+Jan 15 09:02:40 server sshd[2155]: Failed password for invalid user test from 103.21.244.55 port 42318 ssh2
+Jan 15 09:02:45 server sshd[2155]: Failed password for invalid user test from 103.21.244.55 port 42319 ssh2
+Jan 15 09:02:50 server sshd[2155]: Failed password for invalid user test from 103.21.244.55 port 42320 ssh2
+Jan 15 09:03:00 server sshd[2155]: Connection closed by invalid user test from 103.21.244.55 port 42320 [preauth]

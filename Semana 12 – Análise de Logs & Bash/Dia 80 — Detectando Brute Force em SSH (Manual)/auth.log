@@ -1,0 +1,22 @@
+Jan 12 01:10:01 server sshd[1023]: Failed password for root from 45.77.89.100 port 51230 ssh2
+Jan 12 01:10:03 server sshd[1023]: Failed password for admin from 45.77.89.100 port 51231 ssh2
+Jan 12 01:10:05 server sshd[1023]: Failed password for test from 45.77.89.100 port 51232 ssh2
+Jan 12 01:10:07 server sshd[1023]: Failed password for root from 45.77.89.100 port 51233 ssh2
+Jan 12 01:10:09 server sshd[1023]: Failed password for admin from 45.77.89.100 port 51234 ssh2
+Jan 12 01:10:11 server sshd[1023]: Failed password for test from 45.77.89.100 port 51235 ssh2
+Jan 12 01:10:13 server sshd[1023]: Failed password for root from 45.77.89.100 port 51236 ssh2
+Jan 12 01:10:15 server sshd[1023]: Failed password for admin from 45.77.89.100 port 51237 ssh2
+Jan 12 01:10:17 server sshd[1023]: Failed password for test from 45.77.89.100 port 51238 ssh2
+Jan 12 01:10:19 server sshd[1023]: Failed password for root from 45.77.89.100 port 51239 ssh2
+Jan 12 01:10:21 server sshd[1023]: Failed password for admin from 45.77.89.100 port 51240 ssh2
+
+Jan 12 09:15:10 server sshd[2100]: Failed password for user from 192.168.1.20 port 40022 ssh2
+Jan 12 09:15:30 server sshd[2100]: Accepted password for user from 192.168.1.20 port 40023 ssh2
+
+Jan 12 14:22:01 server sshd[3150]: Accepted password for dev from 10.0.0.5 port 55010 ssh2
+
+Jan 12 23:58:44 server sshd[4200]: Failed password for invalid user guest from 185.12.45.33 port 61000 ssh2
+Jan 12 23:58:46 server sshd[4200]: Failed password for invalid user guest from 185.12.45.33 port 61001 ssh2
+Jan 12 23:58:48 server sshd[4200]: Failed password for invalid user guest from 185.12.45.33 port 61002 ssh2
+Jan 12 23:58:50 server sshd[4200]: Failed password for invalid user guest from 185.12.45.33 port 61003 ssh2
+Jan 12 23:58:52 server sshd[4200]: Failed password for invalid user guest from 185.12.45.33 port 61004 ssh2
