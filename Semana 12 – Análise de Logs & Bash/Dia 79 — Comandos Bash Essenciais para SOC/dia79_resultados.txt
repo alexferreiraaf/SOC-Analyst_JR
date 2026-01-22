@@ -1,0 +1,7 @@
+Exemplo de saída:
+
+25 45.77.89.100
+12 185.12.45.33
+3  192.168.1.10
+
+Indica IPs com maior número de falhas de login.
