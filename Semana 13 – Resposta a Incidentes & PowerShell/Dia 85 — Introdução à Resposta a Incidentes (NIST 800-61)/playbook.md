@@ -1,4 +1,4 @@
-# 5 ações de playbook que o SOC deve ter prontas antes do incidente, de forma objetiva:
+### 5 ações de playbook que o SOC deve ter prontas antes do incidente, de forma objetiva:
 
 1. Regras de detecção definidas (ex: tentativas de login falhas acima do limite).
 2. Scripts e consultas prontas para análise rápida de logs.
