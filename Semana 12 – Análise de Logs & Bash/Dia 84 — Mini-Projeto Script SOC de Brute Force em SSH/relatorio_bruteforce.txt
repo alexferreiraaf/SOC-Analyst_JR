@@ -1,0 +1,38 @@
+RELATÓRIO SOC — BRUTE FORCE SSH
+
+Data: 24/01/2026
+Servidor: linux-prod-01
+Analista: SOC Analyst Júnior
+
+Resumo:
+Foi identificado um ataque de brute force em SSH, caracterizado por múltiplas
+tentativas de autenticação falhas em curto intervalo de tempo, direcionadas a
+usuários privilegiados e originadas de IPs externos.
+
+Descrição do Incidente:
+Durante a análise dos logs de autenticação, foram observadas diversas falhas
+de login SSH consecutivas, concentradas em horários suspeitos (madrugada),
+atingindo principalmente usuários críticos como root e admin.
+
+Evidências:
+As evidências técnicas foram extraídas automaticamente pelo script SOC,
+listando IPs com alto volume de falhas de autenticação.
+(Ver arquivo: evidencias.txt)
+
+Severidade:
+Alta
+
+Justificativa da Severidade:
+- Alto volume de tentativas
+- Usuários privilegiados como alvo
+- Padrão automatizado
+- Horário fora do expediente
+
+Ações Recomendadas:
+- Bloqueio temporário dos IPs identificados
+- Aplicação de rate limit ou fail2ban
+- Revisão das configurações de hardening SSH
+- Monitoramento contínuo do servidor
+
+Status:
+Incidente confirmado e em acompanhamento

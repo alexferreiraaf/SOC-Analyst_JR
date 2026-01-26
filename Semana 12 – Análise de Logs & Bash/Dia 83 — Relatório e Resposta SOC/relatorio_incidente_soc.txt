@@ -1,0 +1,37 @@
+RELATÓRIO DE INCIDENTE SOC
+
+Data: 08/02/2026
+Analista: SOC Analyst Júnior
+Servidor: linux-prod-01
+
+Resumo Executivo:
+Foram identificadas múltiplas tentativas de login SSH malsucedidas
+originadas de IPs externos, caracterizando um ataque de força bruta
+contra o servidor Linux.
+
+Descrição do Incidente:
+Durante a análise dos logs de autenticação, foi observado um volume
+elevado de falhas de login SSH em curto intervalo de tempo, direcionadas
+principalmente a usuários privilegiados como root e admin.
+
+Evidências:
+- IP 45.77.89.100 → 38 tentativas de login falhas
+- IP 103.21.44.9 → 12 tentativas de login falhas
+Arquivo de evidências: evidencias_bruteforce.txt
+
+Impacto:
+Até o momento não foi identificado acesso bem-sucedido.
+O risco principal é a possibilidade de comprometimento do servidor
+caso o ataque continue sem mitigação.
+
+Severidade:
+Alta
+
+Ações Recomendadas:
+- Bloqueio imediato dos IPs ofensores no firewall
+- Aplicação de rate limiting / fail2ban
+- Revisão das configurações de SSH (porta, autenticação por chave)
+- Monitoramento contínuo dos logs de autenticação
+
+Status:
+Incidente identificado e em fase de mitigação.

@@ -1,0 +1,5 @@
+Durante a análise do servidor, foram identificadas muitas tentativas repetidas de acesso remoto vindas de endereços externos.
+Essas tentativas ocorreram em curto espaço de tempo e tiveram como alvo contas importantes do sistema.
+O comportamento observado não é compatível com erro humano comum.
+Isso indica uma tentativa automatizada de invasão, conhecida como ataque de força bruta.
+Até o momento, não há evidência de acesso bem-sucedido, mas o risco é considerado elevado.
