@@ -1,0 +1,9 @@
+Verificações realizadas:
+
+- Chaves de Run e RunOnce: OK
+- Tarefas Agendadas: Nenhuma suspeita
+- Serviços instalados recentemente: Nenhum
+- Startup folders: Limpos
+
+Observações:
+Nenhum mecanismo de persistência identificado no host analisado.

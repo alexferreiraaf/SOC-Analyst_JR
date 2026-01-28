@@ -1,0 +1,12 @@
+Processos em execução no momento da coleta:
+
+PID  Nome do Processo        Usuário        Caminho
+-----------------------------------------------------------
+412  lsass.exe               SYSTEM         C:\Windows\System32
+820  svchost.exe             SYSTEM         C:\Windows\System32
+1336 powershell.exe          SOCAnalyst     C:\Windows\System32
+1892 chrome.exe              SOCAnalyst     C:\Program Files\Google\Chrome
+
+Observações:
+Nenhum processo suspeito ou fora do padrão identificado.
+Nenhum processo rodando a partir de diretórios temporários.

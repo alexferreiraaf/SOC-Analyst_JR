@@ -1,0 +1,11 @@
+Conexões de rede ativas:
+
+Proto  Endereço Local        Endereço Remoto        Estado
+--------------------------------------------------------------
+TCP    192.168.0.10:49832    142.250.219.46:443     ESTABLISHED
+TCP    192.168.0.10:49711    20.190.154.1:443       ESTABLISHED
+TCP    192.168.0.10:3389     203.0.113.50:51422     TIME_WAIT
+
+Observações:
+Conexões compatíveis com navegação web e atualizações.
+Nenhuma conexão ativa suspeita identificada.

@@ -1,0 +1,18 @@
+Hostname: HOST-SOC01
+Sistema Operacional: Windows 10 Pro
+Versão: 22H2
+Data/Hora da Coleta: 2026-01-28 10:15
+
+Usuários locais identificados:
+- Administrator
+- SOCAnalyst
+- Guest (desativado)
+
+Último boot do sistema:
+- 2026-01-27 22:43
+
+Atualizações recentes:
+- KB5034123 (Instalada com sucesso)
+
+Observações:
+Sistema operacional íntegro, sem alterações suspeitas aparentes.

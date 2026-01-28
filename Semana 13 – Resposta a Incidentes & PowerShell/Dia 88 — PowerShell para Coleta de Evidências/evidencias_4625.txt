@@ -1,0 +1,17 @@
+Event ID analisado: 4625 (Falha de Logon)
+
+Resumo dos eventos:
+- Total de falhas: 27
+- Usuário alvo: Administrator
+- Origem: 203.0.113.50
+- Tipo de logon: 3 (Network)
+
+Padrão identificado:
+Múltiplas tentativas consecutivas em curto período de tempo,
+caracterizando possível ataque de brute force.
+
+Horário:
+2026-01-28 entre 01:12 e 01:19
+
+Status:
+Atividade maliciosa confirmada.
