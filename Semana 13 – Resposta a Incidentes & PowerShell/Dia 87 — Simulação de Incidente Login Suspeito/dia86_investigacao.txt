@@ -1,0 +1,15 @@
+Análise de Incidente — Tentativas Suspeitas de Login
+
+Durante a análise dos logs de segurança do Windows, foram identificados múltiplos eventos
+do tipo 4625 (falha de logon) provenientes do mesmo endereço IP em um curto intervalo
+de tempo.
+
+O padrão indica tentativa de brute force contra uma conta válida do sistema.
+Não foram identificados eventos 4624 subsequentes relacionados ao mesmo IP,
+indicando que o ataque não obteve sucesso.
+
+A ação recomendada é o bloqueio do IP de origem, reforço das políticas de senha
+e monitoramento contínuo da conta alvo.
+
+Classificação do incidente: Tentativa de acesso não autorizado.
+Gravidade: Média.

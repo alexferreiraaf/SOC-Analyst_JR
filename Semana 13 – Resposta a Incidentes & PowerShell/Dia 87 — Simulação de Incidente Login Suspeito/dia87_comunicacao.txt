@@ -1,0 +1,18 @@
+[COMUNICAÇÃO DO INCIDENTE]
+
+Resumo:
+Foi identificado um comprometimento em um endpoint interno com comunicação suspeita para um servidor externo.
+
+Status Atual:
+Incidente contido. Endpoint isolado e ações de erradicação em andamento.
+
+Impacto:
+Nenhuma evidência de exfiltração confirmada até o momento.
+
+Próximos Passos:
+- Finalizar análise forense
+- Monitoramento contínuo
+- Atualização das equipes envolvidas
+
+Equipe Responsável:
+SOC / Segurança da Informação

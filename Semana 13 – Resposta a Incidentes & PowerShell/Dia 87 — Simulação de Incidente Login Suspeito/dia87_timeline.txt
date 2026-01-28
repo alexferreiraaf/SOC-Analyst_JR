@@ -1,0 +1,11 @@
+[DIA 87 - TIMELINE DO INCIDENTE]
+
+08:12 - Alerta de comportamento suspeito identificado no SIEM
+08:14 - Tráfego anômalo detectado saindo da máquina WS-023
+08:16 - Logs de firewall indicam comunicação com IP externo desconhecido
+08:18 - Análise inicial aponta possível beaconing
+08:22 - Endpoint WS-023 isolado da rede
+08:30 - Coleta de evidências iniciada (logs, processos, conexões)
+08:45 - Confirmação de atividade maliciosa
+08:55 - Incidente classificado como Comprometimento de Endpoint
+09:10 - Plano de resposta a incidente acionado

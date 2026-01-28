@@ -1,0 +1,19 @@
+[EVIDÊNCIAS COLETADAS]
+
+Fonte: Firewall
+- IP de origem: 192.168.1.23
+- IP de destino: 185.231.72.14
+- Porta: 443
+- Sessões repetitivas a cada 60 segundos
+
+Fonte: Endpoint (WS-023)
+- Processo suspeito: svhost.exe (nome similar ao legítimo)
+- Localização: C:\Users\Public\svhost.exe
+- Execução iniciada via chave de registro Run
+
+Fonte: DNS Logs
+- Domínio consultado: update-service-check[.]com
+- Consultas frequentes e automáticas
+
+Observação:
+- Padrão de tráfego indica possível C2 (Command and Control)
