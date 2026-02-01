@@ -1,0 +1,3 @@
+TimeCreated : 02/02/2026 02:08:02
+Id          : 4688
+Message     : Novo processo criado: powershell.exe

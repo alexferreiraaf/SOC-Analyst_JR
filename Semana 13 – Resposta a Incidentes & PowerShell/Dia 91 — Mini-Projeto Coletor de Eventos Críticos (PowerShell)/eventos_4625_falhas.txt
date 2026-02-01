@@ -1,0 +1,7 @@
+TimeCreated : 02/02/2026 02:01:12
+Id          : 4625
+Message     : Falha de logon para o usuário admin. IP de origem: 185.203.XX.10
+
+TimeCreated : 02/02/2026 02:03:45
+Id          : 4625
+Message     : Falha de logon repetida para o usuário admin.

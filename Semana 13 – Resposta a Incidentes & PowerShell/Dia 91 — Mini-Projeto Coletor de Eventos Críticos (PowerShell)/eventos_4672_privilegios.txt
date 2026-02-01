@@ -1,0 +1,3 @@
+TimeCreated : 02/02/2026 02:08:20
+Id          : 4672
+Message     : Privilégios especiais atribuídos ao usuário admin
