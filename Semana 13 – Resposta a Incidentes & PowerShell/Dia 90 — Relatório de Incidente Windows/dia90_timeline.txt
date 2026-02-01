@@ -1,0 +1,6 @@
+Linha do Tempo do Incidente – Windows
+
+02:05 – Tentativas repetidas de login falho (Event ID 4625)
+02:14 – Login bem-sucedido via RDP em horário não comercial (Event ID 4624)
+02:16 – Execução de processos após o login (Event ID 4688)
+02:17 – Atribuição de privilégios administrativos (Event ID 4672)

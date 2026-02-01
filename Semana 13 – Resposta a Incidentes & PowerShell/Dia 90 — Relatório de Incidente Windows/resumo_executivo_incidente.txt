@@ -1,0 +1,12 @@
+Resumo Executivo – Incidente de Segurança
+
+Foi identificado um acesso suspeito a um servidor Windows,
+ocorrido fora do horário comercial e precedido por múltiplas
+falhas de autenticação, indicando possível comprometimento
+de credenciais administrativas.
+
+O incidente foi classificado como severidade alta.
+Medidas iniciais de contenção foram aplicadas e recomenda-se
+o fortalecimento dos controles de autenticação e monitoramento.
+
+Até o momento, não há evidência de indisponibilidade do serviço.

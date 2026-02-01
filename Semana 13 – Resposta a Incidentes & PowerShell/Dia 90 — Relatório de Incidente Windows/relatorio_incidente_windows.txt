@@ -1,0 +1,55 @@
+RELATÓRIO DE INCIDENTE DE SEGURANÇA – WINDOWS
+
+1. Identificação
+Data: 31/01/2026
+Analista: Alex Ferreira
+Hostname: WIN-SRV-01
+Sistema: Windows Server
+Fonte do alerta: Logs de Segurança (Security Log)
+
+2. Resumo Executivo
+Foi identificado um login suspeito em horário não comercial,
+precedido por múltiplas falhas de autenticação, indicando possível
+comprometimento de credenciais administrativas.
+
+3. Descrição do Incidente
+O usuário "admin" apresentou diversas falhas de login (Event ID 4625)
+originadas de um IP externo. Em seguida, ocorreu um logon bem-sucedido
+(Event ID 4624) fora do horário comercial, seguido da criação de
+processos (Event ID 4688) e atribuição de privilégios especiais
+(Event ID 4672).
+
+4. Linha do Tempo
+02:05 – Múltiplas falhas de login (Event ID 4625)
+02:14 – Login bem-sucedido fora do horário comercial (Event ID 4624)
+02:16 – Criação de processo suspeito (Event ID 4688)
+02:17 – Concessão de privilégios especiais (Event ID 4672)
+
+5. Evidências Técnicas
+- Event ID 4625: Falhas de autenticação repetidas
+- Event ID 4624: Logon bem-sucedido (Logon Type 10 – RDP)
+- Event ID 4688: Criação de processos pós-login
+- Event ID 4672: Privilégios administrativos concedidos
+- Coleta realizada via PowerShell
+- Origem: IP externo não reconhecido
+
+6. Impacto e Risco
+Risco elevado de acesso não autorizado ao servidor,
+possível execução de comandos maliciosos e movimentação lateral.
+
+Severidade: Alta
+
+7. Ações Tomadas
+- Monitoramento reforçado da conta envolvida
+- IP de origem sinalizado para bloqueio
+- Evidências coletadas e preservadas
+- Incidente escalado para resposta
+
+8. Recomendações
+- Reset imediato da senha da conta afetada
+- Revisão de permissões administrativas
+- Implementação de MFA
+- Ajuste de regras de detecção para logons fora do horário comercial
+
+9. Status Final
+Incidente confirmado – em processo de mitigação
