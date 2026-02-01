@@ -1,0 +1,18 @@
+02:05 — Múltiplas falhas de logon (Event ID 4625)
+       Usuário: admin
+       IP: 185.XX.XX.10
+
+02:14 — Logon bem-sucedido (Event ID 4624)
+       Usuário: admin
+       IP: 185.XX.XX.10
+       LogonType: 10 (RDP)
+
+02:15 — Criação de processo suspeito (Event ID 4688)
+       Processo: powershell.exe
+       Parent: explorer.exe
+
+02:16 — Privilégios administrativos concedidos (Event ID 4672)
+       Usuário: admin
+
+Conclusão:
+Sequência confirma brute force seguido de acesso, execução e privilégio elevado.
