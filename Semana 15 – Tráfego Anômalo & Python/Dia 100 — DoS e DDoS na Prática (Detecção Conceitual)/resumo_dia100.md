@@ -43,6 +43,7 @@ Aprender a **identificar DoS/DDoS pelo comportamento do tráfego**, antes do ser
 
 ## 🧪 Detecção Conceitual com `ss`
 ```bash```
+
 ss -tunap
 
  SOC observa:
