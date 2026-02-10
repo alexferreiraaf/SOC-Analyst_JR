@@ -56,17 +56,13 @@ Impacto no serviço
 
 ### ❌ Não confundir com ataque
 
-Backup
-
-Atualização
-
-Pico legítimo
-
-Teste interno
+- Backup
+- Atualização
+- Pico legítimo
+- Teste interno
 
 📌 Pergunta-chave:
-
-Isso estava previsto?
+> Isso estava previsto?
 
 🛡️ Resposta SOC (ordem correta)
 
