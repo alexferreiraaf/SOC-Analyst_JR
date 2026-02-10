@@ -64,24 +64,17 @@ Impacto no serviço
 📌 Pergunta-chave:
 > Isso estava previsto?
 
-🛡️ Resposta SOC (ordem correta)
+### 🛡️ Resposta SOC (ordem correta)
 
-Confirmar impacto
+1. Confirmar impacto
+2. Identificar tipo de ataque
+3. Coletar evidências
+4. Acionar firewall / rate limit / infra / anti-DDoS
 
-Identificar tipo de ataque
-
-Coletar evidências
-
-Acionar firewall / rate limit / infra / anti-DDoS
-
-✅ Resultado do Dia
+### ✅ Resultado do Dia
 
 Você consegue:
-
-Diferenciar DoS de DDoS pelo tráfego
-
-Identificar tipo de ataque rapidamente
-
-Evitar falso positivo
-
-Pensar como SOC em indisponibilidade
+- Diferenciar DoS de DDoS pelo tráfego
+- Identificar tipo de ataque rapidamente
+- Evitar falso positivo
+- Pensar como SOC em indisponibilidade
