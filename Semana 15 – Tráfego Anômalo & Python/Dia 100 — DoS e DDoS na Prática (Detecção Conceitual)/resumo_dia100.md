@@ -47,14 +47,14 @@ Aprender a **identificar DoS/DDoS pelo comportamento do tráfego**, antes do ser
 
  ### SOC observa:
 
- - Estados de conexão
+- Estados de conexão
 - IPs repetidos
 Portas
 Impacto no serviço
 
-🚨 Muitos SYN-SENT, UDP excessivo ou TIME-WAIT exagerado = alerta.
+🚨 Muitos `SYN-SENT`, UDP excessivo ou `TIME-WAIT` exagerado = alerta.
 
-❌ Não confundir com ataque
+## ❌ Não confundir com ataque
 
 Backup
 
