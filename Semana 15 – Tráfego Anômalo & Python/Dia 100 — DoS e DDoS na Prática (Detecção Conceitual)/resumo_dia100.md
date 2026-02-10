@@ -42,10 +42,10 @@ Aprender a **identificar DoS/DDoS pelo comportamento do tráfego**, antes do ser
 ---
 
 ## 🧪 Detecção Conceitual com `ss`
-```bash
+```bash```
 ss -tunap
 
- **SOC observa:**
+ SOC observa:
 
  - Estados de conexão
 - IPs repetidos
