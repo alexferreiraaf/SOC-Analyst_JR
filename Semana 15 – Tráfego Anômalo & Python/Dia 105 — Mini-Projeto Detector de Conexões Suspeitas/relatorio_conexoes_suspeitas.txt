@@ -1,0 +1,5 @@
+RELATÓRIO SOC — CONEXÕES SUSPEITAS
+========================================
+
+[ALERTA] IP 192.168.1.10 realizou 16 conexões (possível DoS)
+[SCAN] IP 192.168.1.10 acessou 16 portas diferentes
