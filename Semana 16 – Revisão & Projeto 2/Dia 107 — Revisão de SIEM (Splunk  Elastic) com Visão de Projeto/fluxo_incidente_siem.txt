@@ -1,0 +1,44 @@
+FLUXO DE INCIDENTE — PORT SCAN
+
+1. Coleta
+Firewall envia logs para o SIEM.
+
+2. Normalização
+SIEM estrutura os campos:
+src_ip, dest_ip, dest_port, action, timestamp.
+
+3. Regra
+Regra detecta múltiplas portas acessadas pelo mesmo IP em curto período.
+
+4. Alerta
+SIEM gera alerta com:
+- IP origem
+- Host afetado
+- Número de portas
+- Janela de tempo
+
+5. Investigação
+SOC N1 verifica:
+- Se IP é interno ou externo
+- Reputação do IP
+- Histórico anterior
+- Tentativas bem-sucedidas
+
+6. Evidências
+- Contagem de portas únicas
+- Logs correlacionados
+- Horário do evento
+
+7. Resposta
+- Bloqueio no firewall (se confirmado malicioso)
+- Monitoramento reforçado
+- Escalonamento para SOC N2
+
+8. Relatório
+Documento contendo:
+- O que aconteceu
+- Como foi detectado
+- Evidências
+- Impacto
+- Ações tomadas
+- Recomendações

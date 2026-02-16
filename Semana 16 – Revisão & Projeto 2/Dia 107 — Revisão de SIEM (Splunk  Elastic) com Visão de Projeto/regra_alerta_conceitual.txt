@@ -1,0 +1,29 @@
+CENÁRIO: Port Scan
+
+Fonte de Log:
+Firewall
+
+Campos críticos:
+- src_ip
+- dest_ip
+- dest_port
+- timestamp
+
+Padrão Suspeito:
+Mesmo IP de origem acessando múltiplas portas diferentes em curto período.
+
+Regra Conceitual:
+Mais de 15 portas diferentes acessadas pelo mesmo IP em 1 minuto.
+
+Threshold:
+X = 15 portas
+Y = 1 minuto
+
+Severidade:
+Média (pode subir para alta se IP for externo e recorrente)
+
+Ação SOC N1:
+- Verificar se IP é interno ou externo
+- Consultar reputação do IP
+- Confirmar se é scanner autorizado
+- Escalar para SOC N2 se confirmado como atividade maliciosa
