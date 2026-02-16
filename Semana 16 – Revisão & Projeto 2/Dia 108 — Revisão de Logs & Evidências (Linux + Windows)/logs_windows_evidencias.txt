@@ -1,0 +1,42 @@
+ANÁLISE DE EVIDÊNCIAS — WINDOWS
+
+Fonte analisada:
+Windows Event Viewer — Security Log
+
+Eventos relevantes:
+
+Event ID 4625 — Falha de login
+Time: 01:28:14
+Account Name: administrator
+Source Network Address: 203.0.113.50
+Logon Type: 3 (Network)
+
+Event ID 4625 — Falha de login
+Time: 01:28:20
+Account Name: administrator
+Source Network Address: 203.0.113.50
+Logon Type: 3
+
+Event ID 4624 — Login bem-sucedido
+Time: 01:29:05
+Account Name: administrator
+Source Network Address: 203.0.113.50
+Logon Type: 3
+
+Campos críticos analisados:
+
+- Account Name
+- Source Network Address
+- Logon Type
+- Timestamp
+
+Análise SOC:
+
+- Mesmo IP identificado no servidor Linux
+- Tentativas múltiplas seguidas de sucesso
+- Indício de possível comprometimento de credencial
+
+Conclusão:
+
+Forte indício de ataque coordenado.
+Evidência relevante para incidente multi-sistema.

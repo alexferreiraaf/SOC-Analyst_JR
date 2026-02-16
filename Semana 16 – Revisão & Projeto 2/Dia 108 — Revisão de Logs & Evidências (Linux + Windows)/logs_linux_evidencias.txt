@@ -1,0 +1,39 @@
+ANÁLISE DE EVIDÊNCIAS — LINUX
+
+Fonte analisada:
+ /var/log/auth.log
+
+Trechos relevantes identificados:
+
+Jan 10 01:20:12 server01 sshd[1823]: Failed password for root from 203.0.113.50 port 51422 ssh2
+Jan 10 01:20:14 server01 sshd[1825]: Failed password for admin from 203.0.113.50 port 51424 ssh2
+Jan 10 01:20:18 server01 sshd[1827]: Failed password for invalid user test from 203.0.113.50 port 51426 ssh2
+Jan 10 01:21:02 server01 sshd[1830]: Failed password for root from 203.0.113.50 port 51430 ssh2
+
+Elementos identificados:
+
+IP de origem:
+203.0.113.50
+
+Usuários alvo:
+root
+admin
+invalid user test
+
+Horário:
+01:20 – 01:21
+
+Volume:
+4 tentativas em menos de 1 minuto
+
+Análise SOC:
+
+- IP externo
+- Múltiplos usuários alvo
+- Intervalo curto
+- Padrão compatível com tentativa de brute force SSH
+
+Conclusão:
+
+Atividade suspeita confirmada como tentativa de força bruta.
+Evidência preservada com timestamp e origem.

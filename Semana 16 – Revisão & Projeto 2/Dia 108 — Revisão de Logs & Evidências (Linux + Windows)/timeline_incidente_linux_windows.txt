@@ -1,0 +1,19 @@
+TIMELINE CONSOLIDADA — INCIDENTE LINUX + WINDOWS
+
+01:20 — Tentativas SSH falhas no servidor Linux (203.0.113.50)
+01:21 — Continuação das falhas (padrão de brute force)
+01:28 — Falhas de login no Windows (Event ID 4625)
+01:29 — Login bem-sucedido no Windows (Event ID 4624)
+01:30 — IP recorrente identificado em múltiplos sistemas
+
+Correlação identificada:
+
+- Mesmo IP atacante
+- Curto intervalo entre eventos
+- Progressão de tentativa → sucesso
+- Ambiente Linux e Windows afetados
+
+Conclusão:
+
+Possível movimentação lateral ou reutilização de credenciais.
+Incidente classificado como Alta Severidade.
