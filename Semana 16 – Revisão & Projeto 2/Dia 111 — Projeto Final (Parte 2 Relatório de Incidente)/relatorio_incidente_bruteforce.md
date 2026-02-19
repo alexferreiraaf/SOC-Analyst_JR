@@ -65,34 +65,27 @@ Descrição dos arquivos:
 - `resumo.json` → Dados consolidados da análise (formato estruturado)
 
 ## 5. Análise e Classificação
-5.1 Tipo de Incidente
-
+### 5.1 Tipo de Incidente
 Tentativa de Brute Force (MITRE ATT&CK T1110)
 
-5.2 Foi um incidente real ou tentativa?
-
+### 5.2 Foi um incidente real ou tentativa?
 Foi caracterizada uma tentativa de acesso não autorizado, sem evidências de comprometimento.
 
-5.3 Houve sucesso na invasão?
-
+### 5.3 Houve sucesso na invasão?
 Não.
 Não foram identificados registros de login bem-sucedido provenientes do IP analisado.
 
-5.4 Severidade
-
+### 5.4 Severidade
 Média
 
 Justificativa:
 
-Tentativa externa de acesso
+- Tentativa externa de acesso
+- Volume significativo de tentativas
+- Sem comprometimento confirmado
+- Detectado e contido rapidamente
 
-Volume significativo de tentativas
-
-Sem comprometimento confirmado
-
-Detectado e contido rapidamente
-
-5.5 Impacto
+### 5.5 Impacto
 
 Não houve impacto operacional.
 O incidente não resultou em acesso indevido ou indisponibilidade de serviço.
