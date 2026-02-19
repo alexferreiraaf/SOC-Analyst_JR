@@ -85,12 +85,10 @@ Justificativa:
 - Detectado e contido rapidamente
 
 ### 5.5 Impacto
-
 Não houve impacto operacional.
 O incidente não resultou em acesso indevido ou indisponibilidade de serviço.
 
 ### 5.6 Risco Residual
-
 Moderado, caso não sejam aplicadas medidas preventivas adicionais.
 O IP pode tentar novamente ou fazer parte de botnet automatizada.
 
