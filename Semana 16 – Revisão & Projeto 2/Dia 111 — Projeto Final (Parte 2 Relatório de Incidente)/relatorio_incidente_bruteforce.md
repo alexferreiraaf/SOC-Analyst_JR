@@ -79,7 +79,6 @@ Não foram identificados registros de login bem-sucedido provenientes do IP anal
 Média
 
 Justificativa:
-
 - Tentativa externa de acesso
 - Volume significativo de tentativas
 - Sem comprometimento confirmado
@@ -90,37 +89,25 @@ Justificativa:
 Não houve impacto operacional.
 O incidente não resultou em acesso indevido ou indisponibilidade de serviço.
 
-5.6 Risco Residual
+### 5.6 Risco Residual
 
 Moderado, caso não sejam aplicadas medidas preventivas adicionais.
 O IP pode tentar novamente ou fazer parte de botnet automatizada.
 
-6. Ações Tomadas
+## 6. Ações Tomadas
+- Análise dos logs do sistema
+- Confirmação de ausência de login bem-sucedido
+- Registro do incidente
+- Organização das evidências
+- Monitoramento reforçado do serviço SSH
 
-Análise dos logs do sistema
+## 7. Recomendações
+- Implementar Fail2ban para bloqueio automático de IPs após múltiplas falhas.
+- Configurar rate limiting para conexões SSH.
+- Desabilitar login via senha e utilizar autenticação por chave pública.
+- Alterar a porta padrão do SSH (opcional).
+- Manter monitoramento contínuo dos logs.
+- Revisar política de senhas e usuários habilitados.
 
-Confirmação de ausência de login bem-sucedido
-
-Registro do incidente
-
-Organização das evidências
-
-Monitoramento reforçado do serviço SSH
-
-7. Recomendações
-
-Implementar Fail2ban para bloqueio automático de IPs após múltiplas falhas.
-
-Configurar rate limiting para conexões SSH.
-
-Desabilitar login via senha e utilizar autenticação por chave pública.
-
-Alterar a porta padrão do SSH (opcional).
-
-Manter monitoramento contínuo dos logs.
-
-Revisar política de senhas e usuários habilitados.
-
-8. Conclusão
-
+### 8. Conclusão
 O evento analisado caracteriza uma tentativa automatizada de brute force contra o serviço SSH do servidor monitorado. A detecção foi eficaz e não houve comprometimento do ambiente. Recomenda-se implementação de controles adicionais para redução de risco futuro.
