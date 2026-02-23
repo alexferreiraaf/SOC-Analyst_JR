@@ -1,0 +1,26 @@
+Análise de Alerta — Wazuh Dashboard
+
+Tipo de alerta: Multiple authentication failures
+Regra ID: 5710
+Nível de severidade: 10
+Host: servidor-linux01
+
+Descrição:
+Foram detectadas múltiplas tentativas de login falhas via SSH no mesmo host, originadas do mesmo endereço IP externo.
+
+O que aconteceu?
+Um endereço IP realizou diversas tentativas de autenticação inválidas em curto período.
+
+Em qual host?
+servidor-linux01
+
+Qual regra disparou?
+Regra 5710 — SSH brute force attempt detected
+
+É evento, alerta ou incidente?
+É um alerta de alta severidade.
+Após análise, foi classificado como tentativa de brute force sem sucesso.
+
+Conclusão:
+Não houve login bem-sucedido.
+Recomendado aplicar bloqueio automático via Fail2ban e monitoramento contínuo.

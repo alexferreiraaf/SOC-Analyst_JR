@@ -1,0 +1,24 @@
+Fluxo de Incidente usando Wazuh (Visão SOC)
+
+1. Endpoint gera evento (ex: falha de login SSH)
+2. Wazuh Agent coleta o evento
+3. Manager aplica regra de detecção
+4. Regra ultrapassa limiar
+5. Alerta é gerado com nível de severidade
+6. Evento é indexado
+7. Analista visualiza no Dashboard
+8. Analista realiza triagem:
+   - Verifica host
+   - Verifica IP de origem
+   - Analisa volume de eventos
+9. Decide:
+   - Evento normal?
+   - Alerta isolado?
+   - Incidente real?
+10. Se incidente:
+   - Abrir ticket
+   - Aplicar contenção
+   - Documentar
+
+Conclusão:
+Wazuh atua como mecanismo de detecção e apoio à investigação dentro do fluxo de resposta a incidentes.
