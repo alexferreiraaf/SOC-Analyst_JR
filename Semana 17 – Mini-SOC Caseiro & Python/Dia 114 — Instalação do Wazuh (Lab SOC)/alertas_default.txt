@@ -1,0 +1,40 @@
+Alertas Default Encontrados no Wazuh
+
+1. Alert: Authentication failure
+Rule ID: 5710
+Nível: 5
+Descrição:
+Tentativa de login falha registrada no sistema.
+Interpretação:
+Evento comum em ambiente Linux.
+Pode indicar erro de senha ou tentativa de acesso não autorizado.
+
+---
+
+2. Alert: SSH login attempt
+Rule ID: 5760
+Nível: 3
+Descrição:
+Tentativa de conexão SSH detectada.
+Interpretação:
+Evento informativo.
+Necessário correlacionar com volume e IP de origem.
+
+---
+
+3. Alert: System event detected
+Rule ID: 1002
+Nível: 2
+Descrição:
+Evento padrão do sistema operacional.
+Interpretação:
+Evento normal de funcionamento.
+Baixo risco.
+
+---
+
+Conclusão Geral:
+
+Os alertas default mostram que o Wazuh já monitora eventos locais.
+A maioria possui severidade baixa ou informativa.
+Ambiente pronto para testes com agentes adicionais.

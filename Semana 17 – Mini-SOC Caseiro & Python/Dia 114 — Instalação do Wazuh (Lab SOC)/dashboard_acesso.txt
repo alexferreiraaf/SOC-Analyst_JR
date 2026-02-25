@@ -1,0 +1,26 @@
+Primeiro Acesso ao Dashboard Wazuh
+
+URL utilizada:
+https://IP_DA_VM
+
+Procedimento:
+- Acesso via navegador
+- Aviso de certificado SSL ignorado (ambiente LAB)
+- Login realizado com credenciais geradas na instalação
+
+Painel inicial exibido:
+- Overview de segurança
+- Contador de alertas por severidade
+- Lista de eventos recentes
+- Menu lateral com:
+    - Security Events
+    - Agents
+    - Rules
+    - Management
+
+Observação:
+Mesmo sem agentes conectados, alguns eventos locais do próprio sistema já aparecem.
+
+Conclusão:
+Dashboard operacional e acessível.
+Ambiente pronto para análise.

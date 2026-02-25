@@ -1,0 +1,38 @@
+Serviços do Wazuh — Função de Cada Componente
+
+1. wazuh-manager
+Função:
+- Recebe eventos dos agentes
+- Aplica regras de detecção
+- Gera alertas
+- Centraliza análise
+
+É o cérebro do Wazuh.
+
+---
+
+2. wazuh-indexer
+Função:
+- Armazena e indexa eventos
+- Permite buscas rápidas
+- Baseado em OpenSearch
+
+Sem ele, não há consulta eficiente.
+
+---
+
+3. wazuh-dashboard
+Função:
+- Interface web do sistema
+- Visualização de alertas
+- Filtros por severidade, regra e agente
+- Investigação de eventos
+
+É onde o analista SOC trabalha.
+
+---
+
+Conclusão:
+Se o manager parar → não há detecção.
+Se o indexer parar → não há consulta.
+Se o dashboard parar → não há visibilidade.
