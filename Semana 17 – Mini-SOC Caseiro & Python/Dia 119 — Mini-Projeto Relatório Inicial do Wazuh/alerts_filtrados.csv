@@ -1,0 +1,4 @@
+timestamp,agent,srcip,rule_id,description,level
+2026-03-01T10:12:33Z,server01,185.220.101.45,5710,sshd: authentication failed,10
+2026-03-01T10:14:01Z,server01,185.220.101.45,5710,sshd: authentication failed,10
+2026-03-01T10:18:55Z,server01,185.220.101.45,5712,Multiple authentication failures detected,12
