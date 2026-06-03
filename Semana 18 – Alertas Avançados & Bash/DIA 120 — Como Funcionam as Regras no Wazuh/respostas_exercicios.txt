@@ -1,0 +1,55 @@
+EXERCÍCIO 1
+------------
+
+Qual a diferença entre decoder e regra?
+
+Resposta:
+
+O decoder interpreta o formato do log e extrai informações importantes.
+
+A regra utiliza essas informações para determinar se o evento é relevante e qual severidade deve receber.
+
+---------------------------------------------------
+
+EXERCÍCIO 2
+------------
+
+Se remover o decoder de SSH, o que acontece?
+
+Resposta:
+
+O Wazuh deixará de interpretar corretamente os logs SSH.
+
+Os campos como usuário e IP podem não ser extraídos.
+
+Consequentemente, diversas regras não funcionarão e alertas poderão deixar de ser gerados.
+
+---------------------------------------------------
+
+EXERCÍCIO 3
+------------
+
+Se aumentar o level de login inválido para 12, o que muda no SOC?
+
+Resposta:
+
+O alerta passará a ser tratado como crítico.
+
+Isso pode gerar excesso de alertas prioritários e aumentar a carga operacional do SOC.
+
+Nem todo login inválido representa um incidente real.
+
+---------------------------------------------------
+
+EXERCÍCIO 4
+------------
+
+Por que usar if_sid ao invés de criar regra isolada?
+
+Resposta:
+
+Porque o if_sid permite reaproveitar uma regra existente.
+
+Isso reduz duplicação, facilita manutenção e cria hierarquia entre regras.
+
+O Wazuh utiliza amplamente essa estratégia para correlação de eventos.

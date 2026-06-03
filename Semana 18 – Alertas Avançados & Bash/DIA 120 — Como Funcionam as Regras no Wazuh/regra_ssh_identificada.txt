@@ -1,0 +1,25 @@
+Rule ID: 5710
+
+Descrição:
+SSH authentication failed
+
+Nível:
+5
+
+Categoria:
+Authentication
+
+Objetivo:
+Detectar tentativas de autenticação SSH malsucedidas.
+
+Evento associado:
+Failed password
+
+Arquivo de origem:
+sshd
+
+Análise:
+
+A regra 5710 é uma das regras-base utilizadas para eventos de autenticação SSH.
+
+Ela normalmente serve como regra pai para correlações mais avançadas envolvendo múltiplas falhas de login.

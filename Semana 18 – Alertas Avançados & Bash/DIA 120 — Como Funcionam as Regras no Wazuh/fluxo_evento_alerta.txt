@@ -1,0 +1,47 @@
+1. O usuário tenta realizar login SSH.
+
+2. O sistema Linux registra o evento em:
+
+/var/log/auth.log
+
+3. O Wazuh Agent coleta o log.
+
+4. O evento é enviado ao Wazuh Manager.
+
+5. O Decoder SSH interpreta o log.
+
+6. Os campos são extraídos:
+
+- Usuário
+- IP de origem
+- Tipo de autenticação
+
+7. A Rule correspondente é aplicada.
+
+Exemplo:
+
+Rule ID 5710
+
+8. A regra atribui um nível de severidade.
+
+Exemplo:
+
+Level 5
+
+9. O Wazuh gera um alerta.
+
+10. O alerta é armazenado em:
+
+/var/ossec/logs/alerts/alerts.json
+
+11. O alerta aparece no Dashboard.
+
+12. O analista SOC realiza a triagem.
+
+13. Dependendo do contexto:
+
+Evento → Alerta → Incidente
+
+ou
+
+Evento → Alerta → Falso Positivo
