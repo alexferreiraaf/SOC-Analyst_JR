@@ -31,6 +31,7 @@ Exemplo de cenário:
 
 </group>
 ```
+---
 
 ## 🔄 Fluxo da Regra
 ```
@@ -50,9 +51,14 @@ Alerta gerado
         ↓
 Dashboard Wazuh
 ```
+---
 
 ## 📌 Explicação da Regra
 
 ```<group name="custom,ssh,">```
 
 Agrupa a regra dentro da categoria customizada SSH.
+
+---
+
+
