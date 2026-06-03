@@ -61,4 +61,37 @@ Agrupa a regra dentro da categoria customizada SSH.
 
 ---
 
+```<rule id="100100" level="10">```
 
+Define:
+
+- ID único da regra
+- Severidade do alerta
+Utilizamos IDs acima de 100000 para evitar conflitos com regras padrão.
+
+---
+
+```<if_sid>5715</if_sid>```
+Herda a lógica da regra 5715.
+
+Isso significa:
+
+- Primeiro a regra base precisa ser acionada.
+- Depois a regra customizada é analisada.
+
+---
+
+```<time>22:00 - 23:59</time>```
+
+Determina o horário em que a regra será válida.
+Se o login ocorrer dentro desse intervalo:
+
+```22:00 até 23:59```
+
+o alerta será gerado.
+
+---
+
+```<description>```
+Mensagem exibida no dashboard:
+```Alerta: Login SSH fora do horário permitido```
