@@ -29,22 +29,3 @@ Top 3 IPs ofensores:
 -------------------------------------------
 
 Relatório gerado automaticamente.
-execucao_script.md
-Execução
-
-Conceder permissão:
-
-chmod +x relatorio_incidentes.sh
-
-Executar:
-
-./relatorio_incidentes.sh
-
-Visualizar o relatório:
-
-cat relatorio_2026-06-06.txt
-Exemplo de saída
-Gerando relatório...
-
-Relatório salvo em:
-relatorio_2026-06-06.txt
