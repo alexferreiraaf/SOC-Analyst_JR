@@ -1,0 +1,18 @@
+<group name="custom,ssh,bruteforce,">
+
+  <!-- Detecta múltiplas falhas de login SSH -->
+  <rule id="100200" level="10">
+    <if_sid>5710</if_sid>
+    <frequency>5</frequency>
+    <timeframe>120</timeframe>
+    <description>Múltiplas falhas SSH detectadas (possível brute force)</description>
+  </rule>
+
+  <!-- Exemplo conceitual para possível comprometimento -->
+  <rule id="100201" level="12">
+    <if_sid>5710</if_sid>
+    <if_matched_sid>5710</if_matched_sid>
+    <description>Possível comprometimento SSH após múltiplas falhas de autenticação</description>
+  </rule>
+
+</group>
