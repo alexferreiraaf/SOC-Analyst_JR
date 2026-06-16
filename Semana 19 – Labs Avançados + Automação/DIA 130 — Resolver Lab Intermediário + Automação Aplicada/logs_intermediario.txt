@@ -1,0 +1,10 @@
+2026-05-08T02:14:01 srcip=185.223.89.44 user=root action=failed_login level=8
+2026-05-08T02:14:03 srcip=185.223.89.44 user=root action=failed_login level=8
+2026-05-08T02:14:05 srcip=185.223.89.44 user=root action=failed_login level=8
+2026-05-08T02:14:06 srcip=185.223.89.44 user=root action=success_login level=10
+2026-05-08T02:15:12 srcip=185.223.89.44 user=root action=sudo level=11
+2026-05-08T02:16:10 srcip=185.223.89.44 user=root action=add_user level=12
+2026-05-08T02:17:30 srcip=185.223.89.44 user=root action=add_user level=12
+2026-05-08T02:18:45 srcip=185.223.89.44 user=root action=modify_sshd_config level=12
+2026-05-08T02:19:50 srcip=185.223.89.44 user=root action=restart_sshd level=11
+2026-05-08T02:20:55 srcip=10.0.0.5 user=backup action=login level=3
