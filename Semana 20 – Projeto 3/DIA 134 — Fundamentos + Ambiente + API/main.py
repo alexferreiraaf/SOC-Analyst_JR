@@ -1,52 +1,77 @@
-import requests
-import json
+import csv
+import requests 
+from api_key import API_KEY 
+from utils import ( 
+        extrair_ips, 
+        validar_ip, 
+        consultar_virustotal, 
+        classificar_risco, 
+        ) 
+    ARQUIVO_LOG = "logs_exemplo.log" 
+    ARQUIVO_SAIDA = "relatorio_final.csv" 
 
-# =====================================================
-# CONFIGURAÇÃO
-# =====================================================
+    def gerar_csv(resultado): 
+        with open( 
+                ARQUIVO_SAIDA, 
+                mode="w", 
+                newline="", 
+                encoding="utf-8", 
+             ) as arquivo: 
 
-# Substitua pela sua API Key do VirusTotal
-API_KEY = "sua API_KEY"
+                writer = csv.writer(arquivo) 
+                writer.writerow( 
+                        [ 
+                            "IP", 
+                            "Detections", 
+                            "Risk", 
+                        ] 
+                     ) 
 
-# IP que será consultado
-IP = "8.8.8.8"
+                    for item in resultado: 
+                        writer.writerow( 
+                                [ 
+                                    item["ip"], 
+                                    item["detections"], 
+                                    item["risk"], 
+                                 ] 
+                             ) 
+    def main(): 
+        print("=" * 50) 
+        print("LOG THREAT INTELLIGENCE ANALYZER") 
+        print("=" * 50) 
 
-# Endpoint da API
-URL = f"https://www.virustotal.com/api/v3/ip_addresses/{IP}"
+        ips = extrair_ips(ARQUIVO_LOG) 
 
-# Cabeçalhos da requisição
-headers = {
-    "x-apikey": API_KEY
-}
+        print(f"\nIPs encontrados: {len(ips)}") 
 
-# =====================================================
-# CONSULTA À API
-# =====================================================
+        resultados = [] 
 
-print(f"Consultando informações do IP: {IP}...\n")
+        for ip in ips: 
+            if not validar_ip(ip): 
+                print(f"IP inválido ignorado: {ip}") 
+                continue 
+            print(f"\nConsultando {ip}...") 
+            malicious, suspicious = consultar_virustotal( 
+                    ip, 
+                    API_KEY, 
+            ) 
 
-try:
-    response = requests.get(URL, headers=headers)
+            detections = malicious + suspicious 
+            risk = classificar_risco(detections) resultados.append( 
+                    { 
+                        "ip": ip, 
+                        "detections": detections, 
+                        "risk": risk, 
+                     } 
+             ) 
 
-    # Verifica se a requisição foi bem-sucedida
-    if response.status_code == 200:
-        dados = response.json()
+            print( 
+                    f"Detecções: {detections} | Classificação: {risk}" 
+             ) 
+            gerar_csv(resultados) 
 
-        print("Consulta realizada com sucesso!\n")
+            print("\nRelatório CSV gerado com sucesso!") 
+            print(f"Arquivo: {ARQUIVO_SAIDA}") 
 
-        # Exibe o JSON formatado
-        print(json.dumps(dados, indent=4, ensure_ascii=False))
-
-    elif response.status_code == 401:
-        print("Erro: API Key inválida ou não informada.")
-
-    elif response.status_code == 429:
-        print("Erro: Limite de consultas da API gratuita excedido.")
-
-    else:
-        print(f"Erro HTTP {response.status_code}")
-        print(response.text)
-
-except requests.exceptions.RequestException as erro:
-    print("Erro ao conectar com a API do VirusTotal.")
-    print(f"Detalhes: {erro}")
+            if __name__ == "__main__": 
+                main()
