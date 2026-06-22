@@ -1,0 +1,5 @@
+timestamp=2026-06-01 sender=security@paypaI.com recipient=user1@empresa.com subject="Verify account" url=http://paypaI-login-security.com
+
+timestamp=2026-06-01 sender=updates@amazon-secure.co recipient=user2@empresa.com subject="Delivery issue" url=http://amazon-secure-login.co
+
+timestamp=2026-06-01 sender=it@empresa.com recipient=user3@empresa.com subject="Meeting reminder" url=http://intranet.empresa.com

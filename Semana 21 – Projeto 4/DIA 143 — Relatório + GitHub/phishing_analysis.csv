@@ -1,0 +1,4 @@
+url,domain,risk
+http://paypaI-login-security.com,paypaI-login-security.com,HIGH
+http://amazon-secure-login.co,amazon-secure-login.co,HIGH
+http://intranet.empresa.com,intranet.empresa.com,LOW
